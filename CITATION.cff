@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >-
+  If you use or discuss this research framework, please cite the
+  version of the repository you consulted. Cite a version-specific
+  DOI when one becomes available.
+type: generic
+title: 'Intelligence Spillover, Generalization, Fluidity, Transfer, and Relay (ISGFTR)'
+authors:
+  - family-names: Tan
+    given-names: Sizhe
+version: 1.0.0
+date-released: 2026-10-30
+license: Apache-2.0
+abstract: >-
+  ISGFTR is an open, theory-first research framework investigating
+  intelligence spillover, generalization, fluidity, transfer, and relay.
+  It proposes distinctions among generative, observed, reachable, and
+  evolvable capability boundaries; structural folding and reuse;
+  weak-evidence capability prospecting; selective permeability;
+  system-centric multi-level learning; and evidence-bearing recursive
+  relay. The repository includes conceptual studies, proposed contracts,
+  illustrative cases, falsifiable hypotheses, and a validation roadmap.
+  It does not claim completed empirical validation or achieved AGI.
+keywords:
+  - structural intelligence
+  - intelligence spillover
+  - generalization
+  - intelligence fluidity
+  - transfer learning
+  - structural relay
+  - capability prospecting
+  - collective learning
+  - system-centric intelligence
+  - artificial general intelligence research
