@@ -1,0 +1,30 @@
+{
+  "title": "Intelligence Spillover, Generalization, Fluidity, Transfer, and Relay (ISGFTR)",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "<p>Intelligence Spillover, Generalization, Fluidity, Transfer, and Relay (ISGFTR) is an open, theory-first research framework exploring how intelligence capabilities may extend beyond their initially observed task or model boundaries through structural generalization, selective fluidity, cross-domain transfer, and evidence-bearing relay.</p><p>The framework distinguishes generative, observed, reachable, and evolvable capability boundaries; investigates folding and structural reuse, directional intuition and weak-evidence capability prospecting, system-centric multi-level learning, adaptive permeability, and recursive relay. The v1.0.0 research collection contains ten conceptual research papers, four proposed specifications, three illustrative research cases, three exploratory extensions, and supporting documentation on open questions, testable hypotheses, and validation.</p><p>This release is a research proposal and conceptual framework, not a claim of completed empirical validation, demonstrated recursive self-improvement, or achieved artificial general intelligence. It invites independent testing, counterevidence, replication, and collective learning.</p>",
+  "creators": [
+    {
+      "name": "Tan, Sizhe"
+    }
+  ],
+  "keywords": [
+    "structural intelligence",
+    "intelligence spillover",
+    "generalization",
+    "intelligence fluidity",
+    "cross-domain transfer",
+    "structural relay",
+    "capability prospecting",
+    "collective learning",
+    "system-centric intelligence",
+    "artificial general intelligence research",
+    "weak evidence",
+    "selective permeability"
+  ],
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "eng",
+  "notes": "Theory-first release. Proposed specifications and illustrative cases are not claims of empirical validation. DOI and release publication date are intentionally not preassigned."
+}
