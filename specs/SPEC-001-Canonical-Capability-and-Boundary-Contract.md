@@ -35,9 +35,9 @@ A **capability** is a reproducible ability of an identified actor to perform a d
 
 A claim is represented conceptually as:
 
-\[
+$$
 C=(A,T,K,R,M,E,P,S),
-\]
+$$
 
 where **A** is actor identity and composition, **T** is task definition and distribution, **K** is context and operating constraints, **R** is available resources and tools, **M** is measurement protocol, **E** is evidence, **P** is provenance, and **S** is claim state. This tuple is descriptive, not an assertion that capability is a single numeric quantity.
 

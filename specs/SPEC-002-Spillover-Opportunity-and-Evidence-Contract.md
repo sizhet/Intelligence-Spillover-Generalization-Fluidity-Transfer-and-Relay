@@ -172,11 +172,11 @@ A **Directional Assessment** is an optional but recommended record that explains
 
 An illustrative heuristic is:
 
-\[
+$$
 P(o)=w_s S(o)+w_e E(o)+w_i I(o)+w_r R(o)-w_c C(o)-w_n N(o),
-\]
+$$
 
-where \(S\) denotes structural plausibility, \(E\) evidence quality, \(I\) expected information value, \(R\) potential reuse, \(C\) cost, and \(N\) negative-transfer risk. This is **not** a canonical probability model. Weights and component scales MUST be disclosed if the score is reported. A high score authorizes, at most, consideration for a probe subject to governance constraints.
+where $S$ denotes structural plausibility, $E$ evidence quality, $I$ expected information value, $R$ potential reuse, $C$ cost, and $N$ negative-transfer risk. This is **not** a canonical probability model. Weights and component scales MUST be disclosed if the score is reported. A high score authorizes, at most, consideration for a probe subject to governance constraints.
 
 The assessment SHOULD also report how ranking changes under reasonable alternative weights and how unmeasured OTHERS residuals might reverse the recommendation. A constrained portfolio MAY favor diversity of mechanisms and domains rather than only top-ranked candidates.
 
