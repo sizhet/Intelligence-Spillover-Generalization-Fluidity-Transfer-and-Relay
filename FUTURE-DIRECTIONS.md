@@ -61,11 +61,11 @@ A representation that preserves a transferable **shared structural core** while 
 
 A possible decomposition is:
 
-\[
+$$
 X_d \longrightarrow (C,\Delta_d,U_d),
-\]
+$$
 
-where \(X_d\) is a domain-specific task representation, \(C\) a proposed reusable core, \(\Delta_d\) a domain-specific residual, and \(U_d\) a description of unresolved uncertainty. This is a conceptual interface, not a proven canonical decomposition.
+where $X_d$ is a domain-specific task representation, $C$ a proposed reusable core, $\Delta_d$ a domain-specific residual, and $U_d$ a description of unresolved uncertainty. This is a conceptual interface, not a proven canonical decomposition.
 
 ### 4.2 Experiment families
 
@@ -89,7 +89,7 @@ Candidate features include structural overlap, historical precedents, perspectiv
 
 ### 5.2 Budgeted evaluation
 
-Under a fixed exploration budget \(B\), compare selection policies on:
+Under a fixed exploration budget $B$, compare selection policies on:
 
 - Verified useful transfers per unit cost;
 - Time to first independently validated transfer;
