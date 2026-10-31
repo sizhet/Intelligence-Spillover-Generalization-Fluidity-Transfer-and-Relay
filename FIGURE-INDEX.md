@@ -6,8 +6,6 @@
 
 This index defines the eight standalone illustrations for the ISGFTR research repository. Each figure serves as a conceptual map and should be read together with the associated definitions, limitations, testable hypotheses, and research contracts. A diagram does **not** establish that a proposed mechanism has been empirically demonstrated.
 
-> **Asset-status note:** The research conversation produced a single composite infographic depicting eight panels. That composite is **not equivalent to eight separately exported, filename-matched PNG files**. Before publishing this index as an active image gallery, export or generate and inspect each of the eight standalone images at the exact paths below. Until then, the links are target repository paths, not confirmation of available image assets.
-
 ## 1. Master figure catalog
 
 | ID | Figure and target file | Core question | Primary manuscript |
