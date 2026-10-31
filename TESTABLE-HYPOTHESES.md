@@ -4,7 +4,7 @@
 **Document type:** Falsifiable research hypotheses and experimental design register  
 **Version:** 1.0.0 (theory-first)  
 **Status:** Proposed tests; no results claimed  
-**Date:** 2026-10-30
+**Date:** 2026-10-31
 
 ## 1. Purpose
 
@@ -359,7 +359,7 @@ Mixed results should be disaggregated by prespecified task families and difficul
 - **Contracts:** [SPEC-001](specs/SPEC-001-Canonical-Capability-and-Boundary-Contract.md), [SPEC-002](specs/SPEC-002-Spillover-Opportunity-and-Evidence-Contract.md), [SPEC-003](specs/SPEC-003-Prospecting-Probing-and-Validation-Lifecycle.md), [SPEC-004](specs/SPEC-004-Structural-Relay-and-Collective-Learning-Contract.md).
 - **Illustrative studies:** [CASE-001](cases/CASE-001-LLM-Capability-Spillover-and-Cross-Domain-Transfer.md), [CASE-002](cases/CASE-002-Minimal-System-Centric-Collective-Learning.md), [CASE-003](cases/CASE-003-Weak-Evidence-Capability-Prospecting-and-Relay.md).
 - **Extensions:** [EXT-001](extensions/EXT-001-Biomimetic-Fluidity-and-Selective-Permeability.md), [EXT-002](extensions/EXT-002-Learning-the-Boundaries-of-Intelligence-Flow.md), [EXT-003](extensions/EXT-003-Evolvable-Intelligence-Potential-and-Open-Ended-AGI.md).
-- **Research agenda:** [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md), [FUTURE-DIRECTIONS.md](FUTURE-DIRECTIONS.md), and [VALIDATION-ROADMAP.md](VALIDATION-ROADMAP.md) (planned).
+- **Research agenda:** [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md), [FUTURE-DIRECTIONS.md](FUTURE-DIRECTIONS.md), and [VALIDATION-ROADMAP.md](VALIDATION-ROADMAP.md).
 
 ## 17. Open Collaboration and Closing Principle
 

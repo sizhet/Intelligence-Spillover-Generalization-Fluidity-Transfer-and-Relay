@@ -4,7 +4,7 @@
 **Document type:** Open research questions and collaborative investigation agenda  
 **Version:** 1.0.0 (theory-first)  
 **Status:** Open hypotheses; not empirical findings  
-**Date:** 2026-10-30
+**Date:** 2026-10-31
 
 ## 1. Purpose and Research Discipline
 

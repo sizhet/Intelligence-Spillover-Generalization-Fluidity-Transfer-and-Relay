@@ -4,7 +4,7 @@
 
 **Version:** v1.0.0 (research framework)  
 **Status:** Open hypotheses, proposed contracts, and illustrative study designs — **not** an experimentally validated AGI system  
-**Date:** 2026-10-30  
+**Date:** 2026-10-31  
 **License:** Apache-2.0 (subject to the repository's `LICENSE.txt` file)
 
 > **Central question:** How can capabilities appear beyond their initially observed task boundaries, and under what conditions can systems discover, test, transfer, preserve, and collectively improve those capabilities?
@@ -158,7 +158,7 @@ The cases are **study designs and illustrative records**, not claims that the pr
 - `START-HERE.md` — recommended reading paths for different audiences.
 - `CONTENTS.md` — complete document directory.
 - `GLOSSARY.md` — shared terms and disambiguation.
-- `FIGURE-INDEX.md` and `figures/` — eight planned research figures.
+- `FIGURE-INDEX.md` and `figures/` — eight research figures.
 - `OPEN-QUESTIONS.md`, `TESTABLE-HYPOTHESES.md`, `VALIDATION-ROADMAP.md` — explicit research and falsification agenda.
 - `FUTURE-DIRECTIONS.md` — possible follow-on work.
 - `CHANGELOG.md`, `CITATION.cff`, `.zenodo.json`, `LICENSE.txt` — publication and repository metadata.

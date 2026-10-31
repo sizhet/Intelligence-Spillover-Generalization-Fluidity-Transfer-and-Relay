@@ -4,7 +4,7 @@
 **Document:** `VALIDATION-ROADMAP.md`  
 **Version:** 1.0.0 — theory-first research plan  
 **Status:** Proposed validation program; no experimental findings are asserted  
-**Date:** 2026-10-30
+**Date:** 2026-10-31
 
 ## 1. Purpose and epistemic commitments
 

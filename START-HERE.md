@@ -1,7 +1,7 @@
 # START HERE — Intelligence Spillover, Generalization, Fluidity, Transfer, and Relay (ISGFTR)
 
 **A practical reading and research entry point**  
-**Version:** v1.0.0 · **Date:** 2026-10-30  
+**Version:** v1.0.0 · **Date:** 2026-10-31  
 **Status:** Theory-first, open hypotheses and proposed validation contracts; not a demonstrated AGI architecture.
 
 Welcome. ISGFTR studies a question that is easy to ask but difficult to answer rigorously:
@@ -73,7 +73,7 @@ Intelligence-Spillover-Generalization-Fluidity-Transfer-and-Relay/
 ├── START-HERE.md             # This reading guide
 ├── CONTENTS.md               # Full navigation
 ├── GLOSSARY.md               # Definitions and distinctions
-├── FIGURE-INDEX.md           # Eight planned research figures
+├── FIGURE-INDEX.md           # Eight research figures
 ├── FUTURE-DIRECTIONS.md      # Next research directions
 ├── OPEN-QUESTIONS.md         # Unresolved questions
 ├── TESTABLE-HYPOTHESES.md    # Falsifiable propositions

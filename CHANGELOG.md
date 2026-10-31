@@ -64,7 +64,7 @@ These are **proposed case studies and experimental protocols**; they do not repo
 - `START-HERE.md` — introductory pathways for readers and potential collaborators.
 - `CONTENTS.md` — inventory and cross-document navigation.
 - `GLOSSARY.md` — terminology and critical distinctions.
-- `FIGURE-INDEX.md` — eight planned figure identities, descriptions, and placements.
+- `FIGURE-INDEX.md` — eight figure identities, descriptions, and placements.
 - `FUTURE-DIRECTIONS.md` — prioritized future research directions.
 - `OPEN-QUESTIONS.md` — unresolved conceptual, methodological, and empirical questions.
 - `TESTABLE-HYPOTHESES.md` — falsifiable hypotheses and candidate controls.

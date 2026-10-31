@@ -13,8 +13,8 @@
 | [README.md](README.md) | Project overview, research motivation, and repository entry point |
 | [START-HERE.md](START-HERE.md) | Short orientation, recommended reading pathways, and first experiment |
 | **CONTENTS.md** | Complete publication and navigation index (this file) |
-| [GLOSSARY.md](GLOSSARY.md) | Terminology and careful distinctions (planned) |
-| [FIGURE-INDEX.md](FIGURE-INDEX.md) | Visual index and figure-to-document mapping (planned) |
+| [GLOSSARY.md](GLOSSARY.md) | Terminology and careful distinctions |
+| [FIGURE-INDEX.md](FIGURE-INDEX.md) | Visual index and figure-to-document mapping |
 
 **Recommended first reading:** README → START-HERE → ISGFTR-001 → ISGFTR-002 → ISGFTR-010. Readers seeking implementable research records can then move to SPEC-001 through SPEC-004.
 
@@ -76,7 +76,7 @@ These documents propose test scenarios, controls, metrics, and falsifiable hypot
 
 ## 6. Figures (`figures/`)
 
-The planned figure filenames below are the canonical names for **eight individual image assets**. A composite overview image, if produced, does not by itself mean that each separate PNG has been exported to its intended path.
+The figure filenames below are the canonical names for **eight individual image assets**. A composite overview image, if produced, does not by itself mean that each separate PNG has been exported to its intended path.
 
 | Figure | Planned image | Subject |
 |---|---|---|
@@ -142,4 +142,4 @@ Release assets should not claim a DOI until a DOI has actually been assigned. Re
 
 **Project stance:** *Theory-first, falsifiable, evidence-preserving, and collective-learning friendly.*  
 **Suggested license:** Apache-2.0 (verify the actual `LICENSE.txt` file before release).  
-**Last updated:** 2026-10-30.
+**Last updated:** 2026-10-31.
