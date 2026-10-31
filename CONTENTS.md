@@ -104,7 +104,7 @@ These root-level supporting files organize the project's open questions, tests, 
 | [CHANGELOG.md](CHANGELOG.md) | Document and release history |
 | [CITATION.cff](CITATION.cff) | Citation metadata |
 | [.zenodo.json](.zenodo.json) | Zenodo deposit metadata |
-| [LICENSE](LICENSE) | Apache-2.0 licensing text (to be included) |
+| [LICENSE.txt](LICENSE.txt) | Apache-2.0 licensing text (to be included) |
 
 ## 8. Publication and release assets (`release/`)
 
@@ -141,5 +141,5 @@ Release assets should not claim a DOI until a DOI has actually been assigned. Re
 ---
 
 **Project stance:** *Theory-first, falsifiable, evidence-preserving, and collective-learning friendly.*  
-**Suggested license:** Apache-2.0 (verify the actual `LICENSE` file before release).  
+**Suggested license:** Apache-2.0 (verify the actual `LICENSE.txt` file before release).  
 **Last updated:** 2026-10-30.

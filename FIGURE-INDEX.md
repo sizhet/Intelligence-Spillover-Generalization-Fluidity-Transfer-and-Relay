@@ -141,7 +141,7 @@ For the [SPEC](specs/), [CASE](cases/), and [EXT](extensions/) documents, figure
 From a manuscript inside `docs/`, use a path **relative to that manuscript**, for example:
 
 ```markdown
-![Fig-004. Folding, generalization, and structural transfer — conceptual model](../figures/Fig-004-Folding-Generalization-and-Structural-Transfer.png)
+![Fig-004. Folding, generalization, and structural transfer — conceptual model](figures/Fig-004-Folding-Generalization-and-Structural-Transfer.png)
 
 *Fig-004. Hypothesized structural-core reuse and context-sensitive transfer; empirical validation remains necessary.*
 ```
@@ -167,3 +167,4 @@ To avoid duplicated images, embed a figure at its main explanatory location and 
 ## 6. Research and attribution note
 
 These figures are explanatory artifacts for an open, theory-first research program. They neither establish priority over existing research fields nor constitute validation of the ISGFTR hypotheses. Contributors are encouraged to propose corrections, alternative diagrams, negative cases, and better experimental representations. Refer to [TESTABLE-HYPOTHESES.md](TESTABLE-HYPOTHESES.md), [VALIDATION-ROADMAP.md](VALIDATION-ROADMAP.md), and the four specifications for claims and evidence requirements once those documents are published.
+

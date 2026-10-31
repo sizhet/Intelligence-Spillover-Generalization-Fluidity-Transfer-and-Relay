@@ -5,7 +5,7 @@
 **Version:** v1.0.0 (research framework)  
 **Status:** Open hypotheses, proposed contracts, and illustrative study designs — **not** an experimentally validated AGI system  
 **Date:** 2026-10-30  
-**License:** Apache-2.0 (subject to the repository's `LICENSE` file)
+**License:** Apache-2.0 (subject to the repository's `LICENSE.txt` file)
 
 > **Central question:** How can capabilities appear beyond their initially observed task boundaries, and under what conditions can systems discover, test, transfer, preserve, and collectively improve those capabilities?
 
@@ -155,7 +155,7 @@ The cases are **study designs and illustrative records**, not claims that the pr
 - `FIGURE-INDEX.md` and `figures/` — eight planned research figures.
 - `OPEN-QUESTIONS.md`, `TESTABLE-HYPOTHESES.md`, `VALIDATION-ROADMAP.md` — explicit research and falsification agenda.
 - `FUTURE-DIRECTIONS.md` — possible follow-on work.
-- `CHANGELOG.md`, `CITATION.cff`, `.zenodo.json`, `LICENSE` — publication and repository metadata.
+- `CHANGELOG.md`, `CITATION.cff`, `.zenodo.json`, `LICENSE.txt` — publication and repository metadata.
 - `release/` — GitHub release notes and ResearchGate publication materials.
 
 **Asset note:** This README describes the intended repository layout. A linked supporting file or individual figure is available only once it has been added to the published repository; the list is not an assertion that every asset has already been committed.
@@ -223,7 +223,8 @@ The intended **v1.0.0 release is theory-first**: the papers, proposed contracts,
 
 ## 11. License and attribution
 
-The intended repository license is **Apache License 2.0**. See [`LICENSE`](LICENSE) for the controlling license text once published. Authors, release dates, archive identifiers, and citation details should be verified against `CITATION.cff` and the eventual archived release before formal citation.
+The intended repository license is **Apache License 2.0**. See [`LICENSE.txt`](LICENSE.txt) for the controlling license text once published. Authors, release dates, archive identifiers, and citation details should be verified against `CITATION.cff` and the eventual archived release before formal citation.
+
 
 ---
 

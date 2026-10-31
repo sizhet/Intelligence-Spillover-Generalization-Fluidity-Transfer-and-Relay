@@ -3,7 +3,7 @@
 **Project:** Intelligence Spillover, Generalization, Fluidity, Transfer, and Relay (ISGFTR)  
 **Repository:** `Intelligence-Spillover-Generalization-Fluidity-Transfer-and-Relay`  
 **Document status:** Theory-first research release preparation  
-**License:** Apache-2.0 (subject to inclusion of the repository LICENSE file)
+**License:** Apache-2.0
 
 This changelog records the evolution of the ISGFTR research materials. It distinguishes **authored research artifacts** from **empirically validated findings**. A document's inclusion does not establish the correctness of its hypotheses, the completion of its proposed experiments, or the availability of a working runtime.
 
@@ -15,7 +15,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) conv
 
 - Verify that all internal Markdown links resolve and that the complete repository structure matches `CONTENTS.md`.
 - Confirm that eight figure assets are present as **eight separately named PNG files** under `figures/`, rather than only as a composite image. Review legibility, captions, terminology, and visual consistency.
-- Complete `CITATION.cff`, `.zenodo.json`, and the Apache-2.0 `LICENSE` file; validate metadata against the final GitHub repository name and author attribution.
+- Complete `CITATION.cff`, `.zenodo.json`, and the Apache-2.0 `LICENSE.txt` file; validate metadata against the final GitHub repository name and author attribution.
 - Prepare `release/GitHub-Release-Notes-v1.0.0.md`, `release/ResearchGate-Description.txt`, and `release/ISGFTR-v1.0.0-ResearchGate-Overview.pdf`.
 - Run a release-readiness check covering document inventory, figure references, citation metadata, license, version consistency, and unsupported empirical claims.
 - Add machine-readable schemas, reference conformance tests, reproducible benchmarks, and experimental evidence **only as future work**; these are not part of the theory-first baseline.

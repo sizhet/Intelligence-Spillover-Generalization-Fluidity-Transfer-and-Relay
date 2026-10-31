@@ -4,7 +4,7 @@
 **Version:** 1.0.0 (theory-first)  
 **Status:** Open research agenda; proposals and hypotheses, not demonstrated capabilities  
 **Date:** 2026-10-30  
-**License:** Apache-2.0 (repository preference; see `LICENSE` for the governing terms)
+**License:** Apache-2.0
 
 > **Research stance:** Explore widely, validate carefully, preserve counterevidence, and relay both successes and failures. Neither intelligence spillover nor recursive relay establishes artificial general intelligence (AGI).
 

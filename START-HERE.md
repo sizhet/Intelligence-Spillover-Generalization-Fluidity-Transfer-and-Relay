@@ -81,7 +81,7 @@ Intelligence-Spillover-Generalization-Fluidity-Transfer-and-Relay/
 ├── CHANGELOG.md
 ├── CITATION.cff
 ├── .zenodo.json
-├── LICENSE
+├── LICENSE.txt
 ├── docs/                     # ISGFTR-001 through ISGFTR-010
 ├── specs/                    # SPEC-001 through SPEC-004
 ├── cases/                    # CASE-001 through CASE-003
