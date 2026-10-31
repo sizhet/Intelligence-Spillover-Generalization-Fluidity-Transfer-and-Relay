@@ -37,7 +37,7 @@ ISGFTR-001 introduced four analytical boundaries. Here they serve as a map for c
 
 A reachable capability can remain unobserved because the relevant experiment has not been performed. Conversely, an apparently observed success can disappear under stronger controls. Reachability is relative to an intervention set and a budget; evolvability is relative to a learning mechanism and time horizon. Thus these boundaries must be indexed by conditions rather than depicted as universal concentric circles.
 
-Let \(C(S,T,I,B,E)\) denote a system's measured capability for task distribution \(T\), allowed interventions \(I\), resource budget \(B\), and evaluation protocol \(E\). Prospecting considers changes to \(I\) or system structure while preserving a clear record of what was changed. Without these indices, claims of “new capability” are ambiguous.
+Let $C(S,T,I,B,E)$ denote a system's measured capability for task distribution $T$, allowed interventions $I$, resource budget $B$, and evaluation protocol $E$. Prospecting considers changes to $I$ or system structure while preserving a clear record of what was changed. Without these indices, claims of “new capability” are ambiguous.
 
 ## 3. Definitions: Prospect, Opportunity, Probe, and Confirmed Transfer
 
@@ -84,23 +84,23 @@ Each source should be tagged with its reliability, provenance, and relevance. Mu
 
 A minimal record can be represented as
 
-\[
+$$
 P = (s,t,\tau,a,e^+,e^-,u,c,v,g,p),
-\]
+$$
 
 where:
 
-- \(s\): source capability or structural precedent;
-- \(t\): target task and evaluation distribution;
-- \(\tau\): proposed transformation or relay path;
-- \(a\): assumptions and boundary conditions;
-- \(e^+\): supporting observations;
-- \(e^-\): counterevidence, failure reports, and competing explanations;
-- \(u\): uncertainty representation and provenance gaps;
-- \(c\): anticipated costs, dependencies, and safety constraints;
-- \(v\): predeclared probe and validation protocol;
-- \(g\): governance permissions and stop conditions;
-- \(p\): lifecycle status and provenance identifiers.
+- $s$: source capability or structural precedent;
+- $t$: target task and evaluation distribution;
+- $\tau$: proposed transformation or relay path;
+- $a$: assumptions and boundary conditions;
+- $e^+$: supporting observations;
+- $e^-$: counterevidence, failure reports, and competing explanations;
+- $u$: uncertainty representation and provenance gaps;
+- $c$: anticipated costs, dependencies, and safety constraints;
+- $v$: predeclared probe and validation protocol;
+- $g$: governance permissions and stop conditions;
+- $p$: lifecycle status and provenance identifiers.
 
 This is a conceptual contract, not an implemented universal schema. `SPEC-002` and `SPEC-003` are intended to refine its machine-readable fields and state transitions.
 
@@ -128,16 +128,16 @@ An unexplained residual can generate a candidate for further examination. It is 
 
 ## 7. Prospect Ranking as Resource-Aware Decision Support
 
-Given a portfolio \(\mathcal P\) and limited budget, a ranking function can guide selection:
+Given a portfolio $\mathcal P$ and limited budget, a ranking function can guide selection:
 
-\[
+$$
 Q(P)=w_1 D(P)+w_2 V(P)+w_3 I(P)+w_4 R(P)
 -w_5 K(P)-w_6 H(P),
-\]
+$$
 
-where \(D\) represents directional support, \(V\) potential value, \(I\) expected information gain, \(R\) anticipated reuse, \(K\) experimental cost, and \(H\) expected harm or negative-transfer risk. Weights depend on the research control plane. These terms need not share a natural scale; normalization and sensitivity analysis are mandatory before comparing scores.
+where $D$ represents directional support, $V$ potential value, $I$ expected information gain, $R$ anticipated reuse, $K$ experimental cost, and $H$ expected harm or negative-transfer risk. Weights depend on the research control plane. These terms need not share a natural scale; normalization and sensitivity analysis are mandatory before comparing scores.
 
-**Important:** \(Q(P)\) is an *exploration-priority score*, not a probability of successful transfer. A probabilistic interpretation would require labeled outcomes, calibration assessment, and checks for distribution shift.
+**Important:** $Q(P)$ is an *exploration-priority score*, not a probability of successful transfer. A probabilistic interpretation would require labeled outcomes, calibration assessment, and checks for distribution shift.
 
 A single scalar also hides important tradeoffs. For consequential settings, a Pareto frontier or constrained portfolio can preserve competing objectives such as expected learning, cost, safety, and domain diversity. The scoring rule should be logged before outcomes are observed to reduce post-hoc rationalization.
 

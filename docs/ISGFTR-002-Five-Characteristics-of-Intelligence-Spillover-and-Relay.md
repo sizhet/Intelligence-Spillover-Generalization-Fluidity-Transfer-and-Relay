@@ -39,11 +39,11 @@ A capability claim should specify at least:
 
 A convenient notation is
 
-\[
-\mathcal{C}(S,D,B,E)=\operatorname{Performance}(S\mid D,B,E),
-\]
+$$
+\mathcal{C}(S,D,B,E)=\mathrm{Performance}(S\mid D,B,E),
+$$
 
-where \(S\) is the specified system, \(D\) the task distribution, \(B\) the resource and operational budget, and \(E\) the evaluation protocol. This notation is a bookkeeping device, not a universal scalar definition of intelligence.
+where $S$ is the specified system, $D$ the task distribution, $B$ the resource and operational budget, and $E$ the evaluation protocol. This notation is a bookkeeping device, not a universal scalar definition of intelligence.
 
 ### 2.2 The five characteristics at a glance
 
@@ -97,10 +97,10 @@ The relevant distinctions include interpolation within familiar conditions, syst
 
 ISGFTR proposes a possible connection between structural folding and generalization. When multiple experiences share a reusable core, folding may reduce task-specific detail and make the core accessible to new tasks:
 
-\[
+$$
 \{x_1,\ldots,x_n\}\xrightarrow{\text{structure-preserving folding}}K
 \xrightarrow{\text{contextual unfolding}}\hat y_{\mathrm{new}}.
-\]
+$$
 
 This is a *conditional* mechanism. Compression that discards causal variables, boundary conditions, uncertainty, or rare counterexamples can impair generalization. The research target is therefore **structure-preserving folding with validated unfolding**, not compression as an automatic source of intelligence.
 
@@ -131,11 +131,11 @@ The distinction prevents “openness” from being mistaken for unrestricted acc
 
 ### 5.3 A candidate flow policy
 
-\[
+$$
 \pi_{\mathrm{flow}}(a\mid c,e,r,b),
-\]
+$$
 
-where \(a\) is a candidate routing action, \(c\) context, \(e\) evidence, \(r\) risk, and \(b\) resource and permission constraints. This is an abstract policy notation; no specific implementation or learned policy is claimed.
+where $a$ is a candidate routing action, $c$ context, $e$ evidence, $r$ risk, and $b$ resource and permission constraints. This is an abstract policy notation; no specific implementation or learned policy is claimed.
 
 Possible actions include staying with the current solver, invoking a tool, consulting another agent, reframing a problem, initiating a low-cost probe, or stopping.
 
@@ -178,11 +178,11 @@ An **OTHERS** residual category can retain potentially useful unmatched signals,
 
 A transferred procedure may harm target performance. Report both positive and negative transfer, including opportunity cost. A minimal outcome measure is
 
-\[
+$$
 \Delta_T = U_{\mathrm{target,with\ transfer}}-U_{\mathrm{target,without\ transfer}},
-\]
+$$
 
-with matched budgets and the same target evaluation. Here \(U\) is a declared task-specific utility, not an intrinsic intelligence score.
+with matched budgets and the same target evaluation. Here $U$ is a declared task-specific utility, not an intrinsic intelligence score.
 
 **Hypothesis T1:** Combining structural correspondence, directional weak evidence, and counterevidence will improve budget-normalized candidate selection over similarity-only heuristics on selected cross-domain tasks.
 
@@ -231,11 +231,11 @@ The five characteristics are not stages that every intelligent system must trave
 
 One *candidate* sequence is:
 
-\[
+$$
 \text{Generalization}\rightarrow\text{Spillover Discovery}
 \rightarrow\text{Fluid Routing}\rightarrow\text{Transfer}
 \rightarrow\text{Relay}\rightarrow\text{Evaluation}.
-\]
+$$
 
 But alternative sequences are common. A relay may precede transfer; fluid routing may discover an external capability rather than a new internal one; transfer may occur without spillover; and generalization may be observed without any cross-unit relay.
 

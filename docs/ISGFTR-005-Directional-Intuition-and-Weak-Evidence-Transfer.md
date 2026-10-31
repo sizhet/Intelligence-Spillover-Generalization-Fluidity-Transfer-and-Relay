@@ -104,21 +104,21 @@ A candidate's apparent transferability may change with perspective: semantic, op
 
 A candidate opportunity can be represented as:
 
-\[
+$$
 O=(I_s,T_t,P,M,E^+,E^-,R,C,V)
-\]
+$$
 
 where:
 
-- \(I_s\): source intelligence unit or capability;
-- \(T_t\): target task or capability gap;
-- \(P\): evaluation perspective;
-- \(M\): proposed source–target mapping or transformation;
-- \(E^+\): supporting evidence;
-- \(E^-\): counter-evidence and known failure cases;
-- \(R\): accessible relay resources and interfaces;
-- \(C\): cost, safety, and execution constraints;
-- \(V\): a specified probe and validation criterion.
+- $I_s$: source intelligence unit or capability;
+- $T_t$: target task or capability gap;
+- $P$: evaluation perspective;
+- $M$: proposed source–target mapping or transformation;
+- $E^+$: supporting evidence;
+- $E^-$: counter-evidence and known failure cases;
+- $R$: accessible relay resources and interfaces;
+- $C$: cost, safety, and execution constraints;
+- $V$: a specified probe and validation criterion.
 
 The record should also contain provenance, timestamp or version, status (`proposed`, `probed`, `validated`, `rejected`, `inconclusive`), and a **leftover** field for unresolved residuals. This is a conceptual contract, not a mandated runtime schema. The canonical interface is deferred to `SPEC-002-Spillover-Opportunity-and-Evidence-Contract.md`.
 
@@ -126,19 +126,19 @@ The record should also contain provenance, timestamp or version, status (`propos
 
 A first-generation evaluator should produce an **exploration priority**, not an unearned claim of transfer-success probability. One possible abstract ranking is:
 
-\[
+$$
 S_{\mathrm{dir}}(O)=F\bigl(A_s,D_p,H,R_b,G_r,U,C,K\bigr)
-\]
+$$
 
-where \(A_s\) is structural affinity, \(D_p\) directional compatibility under perspective \(P\), \(H\) historical precedent, \(R_b\) relay feasibility, \(G_r\) residual-bridging potential, \(U\) uncertainty, \(C\) cost, and \(K\) risk or governance constraints. The aggregation function \(F\) is deliberately unspecified: linear weighted sums, Pareto ranking, constrained policies, and learned ranking models are competing hypotheses.
+where $A_s$ is structural affinity, $D_p$ directional compatibility under perspective $P$, $H$ historical precedent, $R_b$ relay feasibility, $G_r$ residual-bridging potential, $U$ uncertainty, $C$ cost, and $K$ risk or governance constraints. The aggregation function $F$ is deliberately unspecified: linear weighted sums, Pareto ranking, constrained policies, and learned ranking models are competing hypotheses.
 
 For experiments with calibrated probabilities and comparable utility units, a decision-theoretic expression may be tested:
 
-\[
-\operatorname{EVI}(O)=p_{\mathrm{success}}(O)\,G(O)-C(O)-R(O)+\lambda\,IG(O)
-\]
+$$
+\mathrm{EVI}(O)=p_{\mathrm{success}}(O)\,G(O)-C(O)-R(O)+\lambda\,IG(O)
+$$
 
-Here \(G\) is expected gain conditional on success, \(R\) expected risk cost, and \(IG\) expected information gain. The expression is *illustrative*, not a validated estimator; terms must be measured consistently and double-counting avoided. Without calibration, report rank or score only—not a percentage probability.
+Here $G$ is expected gain conditional on success, $R$ expected risk cost, and $IG$ expected information gain. The expression is *illustrative*, not a validated estimator; terms must be measured consistently and double-counting avoided. Without calibration, report rank or score only—not a percentage probability.
 
 ### 7.1 Multi-Strategy Scoring
 
@@ -171,11 +171,11 @@ ISGFTR-004 proposes that adaptive systems may benefit from selectively permeable
 
 A useful abstraction is a flow policy:
 
-\[
+$$
 \pi_{\mathrm{flow}}(a\mid x,O,\mathcal{B})
-\]
+$$
 
-where \(a\) is a possible next action (probe, transform, request help, abstain), \(x\) the context, \(O\) the opportunity record, and \(\mathcal{B}\) the applicable boundaries and permissions. Whether such a policy can be learned better than fixed routing is an empirical question.
+where $a$ is a possible next action (probe, transform, request help, abstain), $x$ the context, $O$ the opportunity record, and $\mathcal{B}$ the applicable boundaries and permissions. Whether such a policy can be learned better than fixed routing is an empirical question.
 
 **Boundary openness is not itself a virtue.** Too little permeability misses useful transfers; too much produces distraction, negative transfer, unsafe execution, and evidence contamination.
 

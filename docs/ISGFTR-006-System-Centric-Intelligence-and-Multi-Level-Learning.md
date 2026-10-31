@@ -42,34 +42,34 @@ Natural collective behavior does not prove unlimited intelligence growth, the ab
 
 A simplified model-centric update is
 
-\[
+$$
 \theta_{t+1}=\mathcal{U}(\theta_t,\mathcal{D}_t),
-\]
+$$
 
-where \(\theta_t\) denotes model parameters and \(\mathcal{D}_t\) denotes relevant training experience. This abstraction covers only part of the learning landscape: even model-centric systems may use retrieval, external state, or test-time adaptation.
+where $\theta_t$ denotes model parameters and $\mathcal{D}_t$ denotes relevant training experience. This abstraction covers only part of the learning landscape: even model-centric systems may use retrieval, external state, or test-time adaptation.
 
 For system-centric study, define an operational state
 
-\[
+$$
 \mathcal{S}_t=(U_t,G_t,R_t,P_t,M_t,E_t),
-\]
+$$
 
 where:
 
-- \(U_t\): available intelligence units and their declared capabilities;
-- \(G_t\): interaction, dependency, and invocation structure;
-- \(R_t\): task, evidence, and experience relay mechanisms;
-- \(P_t\): routing, scoring, control, and safety policies;
-- \(M_t\): retained memories, precedents, and evaluation records;
-- \(E_t\): environment, resource access, and feedback channels.
+- $U_t$: available intelligence units and their declared capabilities;
+- $G_t$: interaction, dependency, and invocation structure;
+- $R_t$: task, evidence, and experience relay mechanisms;
+- $P_t$: routing, scoring, control, and safety policies;
+- $M_t$: retained memories, precedents, and evaluation records;
+- $E_t$: environment, resource access, and feedback channels.
 
 A candidate system-level learning operator is
 
-\[
+$$
 \mathcal{S}_{t+1}=\mathcal{L}_{\mathrm{sys}}(\mathcal{S}_t,\tau_t,f_t),
-\]
+$$
 
-with \(\tau_t\) an observed execution trace and \(f_t\) validated feedback. This is a **descriptive schema**, not a validated universal algorithm. Its value is to make the possible locations of adaptation explicit. The units' internal parameters can remain fixed while \(G,R,P,M\) change.
+with $\tau_t$ an observed execution trace and $f_t$ validated feedback. This is a **descriptive schema**, not a validated universal algorithm. Its value is to make the possible locations of adaptation explicit. The units' internal parameters can remain fixed while $G,R,P,M$ change.
 
 ### 3.1 Operational Definition of System Learning
 
@@ -112,21 +112,21 @@ These levels overlap. They should not be treated as a rigid biological hierarchy
 
 ## 6. Structural Learning Without Updating Component Weights
 
-Consider \(n\) frozen intelligence units \(u_1,\ldots,u_n\). The system receives a task \(x\), selects a composition \(g\), executes it, obtains feedback, and updates a structural policy \(\phi\):
+Consider $n$ frozen intelligence units $u_1,\ldots,u_n$. The system receives a task $x$, selects a composition $g$, executes it, obtains feedback, and updates a structural policy $\phi$:
 
-\[
+$$
  g_t\sim\pi_{\phi_t}(g\mid x_t,M_t,C_t),
-\]
+$$
 
-\[
- y_t=\operatorname{Execute}(g_t,x_t;u_1,\ldots,u_n),
-\]
+$$
+ y_t=\mathrm{Execute}(g_t,x_t;u_1,\ldots,u_n),
+$$
 
-\[
- (\phi_{t+1},M_{t+1})=\operatorname{Update}(\phi_t,M_t,x_t,g_t,y_t,f_t).
-\]
+$$
+ (\phi_{t+1},M_{t+1})=\mathrm{Update}(\phi_t,M_t,x_t,g_t,y_t,f_t).
+$$
 
-Here \(C_t\) represents resource and governance constraints. No claim is made that the router must be differentiable: candidate implementations include bandits, Bayesian selection, rule revision, search, or learned policies. Freezing unit weights is an experimental isolation choice, not a recommendation to prohibit model learning in practical systems.
+Here $C_t$ represents resource and governance constraints. No claim is made that the router must be differentiable: candidate implementations include bandits, Bayesian selection, rule revision, search, or learned policies. Freezing unit weights is an experimental isolation choice, not a recommendation to prohibit model learning in practical systems.
 
 ### 6.1 What Counts as a Structural Delta?
 
@@ -164,7 +164,7 @@ A system may become less capable when relay spreads incorrect assumptions. Thus,
 
 A completely closed modular architecture can miss useful cross-domain opportunities. A fully open one can flood units with irrelevant signals and increase error propagation. A candidate middle path is **selective structural permeability**: allow cheap exploratory crossings while requiring stronger evidence before operational adoption.
 
-A flow policy \(\pi_{\mathrm{flow}}\) may condition on task context, structural affinity, weak evidence, estimated benefit, uncertainty, risk, and resource budget. This policy is itself a possible learning target. It should be evaluated against fixed routing, fully open broadcast, and random routing baselines.
+A flow policy $\pi_{\mathrm{flow}}$ may condition on task context, structural affinity, weak evidence, estimated benefit, uncertainty, risk, and resource budget. This policy is itself a possible learning target. It should be evaluated against fixed routing, fully open broadcast, and random routing baselines.
 
 This connects to ISGFTR-004 (permeability), ISGFTR-005 (directional intuition), and the BM-ODWEI / MDI proposals (weak-evidence direction scoring). These are conceptual interfaces, not empirical proof of a shared algorithm.
 

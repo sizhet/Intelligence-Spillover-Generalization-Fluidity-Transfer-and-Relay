@@ -107,37 +107,37 @@ The BM-ODWEI / Metric-Directional-Intuition line of SI research motivates retain
 
 ## 6. A Minimal Conceptual Model
 
-Let a system at time \(t\) have state
+Let a system at time $t$ have state
 
-\[
+$$
 X_t=(q_t,\mathcal{U}_t,\mathcal{G}_t,\mathcal{M}_t,\mathcal{E}_t,\mathcal{P}_t),
-\]
+$$
 
-where \(q_t\) is the current task context, \(\mathcal U_t\) accessible capability units, \(\mathcal G_t\) their connectivity, \(\mathcal M_t\) memory, \(\mathcal E_t\) available evidence, and \(\mathcal P_t\) governing policies.
+where $q_t$ is the current task context, $\mathcal U_t$ accessible capability units, $\mathcal G_t$ their connectivity, $\mathcal M_t$ memory, $\mathcal E_t$ available evidence, and $\mathcal P_t$ governing policies.
 
-A candidate cross-boundary transition \(a\) can be evaluated by a routing policy:
+A candidate cross-boundary transition $a$ can be evaluated by a routing policy:
 
-\[
+$$
 \pi_{\mathrm{flow}}(a\mid X_t),
-\]
+$$
 
-subject to a gate \(g(a,X_t)\in\{\text{reject},\text{explore},\text{validate},\text{execute}\}\).
+subject to a gate $g(a,X_t)\in\{\text{reject},\text{explore},\text{validate},\text{execute}\}$.
 
 A research prototype could prioritize candidate exploration using
 
-\[
+$$
 V(a\mid X_t)=\widehat{B}(a)-\widehat{C}(a)-\widehat{R}(a)+\lambda\widehat{IG}(a),
-\]
+$$
 
-where estimated benefit, cost, risk, and information gain are expressed on a compatible decision scale. These terms are placeholders requiring empirical definition; \(V\) is **not** automatically a calibrated probability of success. Hard safety or permission constraints should be enforced separately, not traded away against estimated benefit.
+where estimated benefit, cost, risk, and information gain are expressed on a compatible decision scale. These terms are placeholders requiring empirical definition; $V$ is **not** automatically a calibrated probability of success. Hard safety or permission constraints should be enforced separately, not traded away against estimated benefit.
 
-After probing, the system records an outcome \(o_t\) and updates its evidence or routing policy:
+After probing, the system records an outcome $o_t$ and updates its evidence or routing policy:
 
-\[
+$$
 (X_{t+1},\mathcal H_{t+1})=\mathcal L(X_t,\mathcal H_t,a_t,o_t).
-\]
+$$
 
-Here \(\mathcal H_t\) denotes a provenance-aware history. Learning may update a model, memory, interface, routing policy, or structural graph. It is not restricted to parameter gradient updates.
+Here $\mathcal H_t$ denotes a provenance-aware history. Learning may update a model, memory, interface, routing policy, or structural graph. It is not restricted to parameter gradient updates.
 
 ## 7. Fluidity, Learning, and Growth Are Different
 

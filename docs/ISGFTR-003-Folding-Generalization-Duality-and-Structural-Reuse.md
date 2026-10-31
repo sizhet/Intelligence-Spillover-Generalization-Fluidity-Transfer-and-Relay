@@ -49,31 +49,31 @@ The proposed *folding–generalization duality* is a **conditional relationship*
 
 ## 3. A Minimal Structural Model
 
-Let a source problem representation be \(x\), a source context \(c_s\), and a candidate folding operator \(F_\phi\). Define
+Let a source problem representation be $x$, a source context $c_s$, and a candidate folding operator $F_\phi$. Define
 
-\[
+$$
  z=F_\phi(x,c_s), \qquad r=R_\phi(x,c_s;z),
-\]
+$$
 
-where \(z\) is a proposed reusable core and \(r\) records residual information not retained in \(z\). For a target context \(c_t\), an unfolding or adaptation operator produces
+where $z$ is a proposed reusable core and $r$ records residual information not retained in $z$. For a target context $c_t$, an unfolding or adaptation operator produces
 
-\[
+$$
  \hat y_t=U_\psi(z,c_t,a_t),
-\]
+$$
 
-where \(a_t\) denotes additional target evidence, tools, or constraints. In a concrete system, \(r\) might be stored for later retrieval, represented as a distribution of uncertainty, or unavailable because it was discarded. These choices are experimentally consequential.
+where $a_t$ denotes additional target evidence, tools, or constraints. In a concrete system, $r$ might be stored for later retrieval, represented as a distribution of uncertainty, or unavailable because it was discarded. These choices are experimentally consequential.
 
 A candidate structural transfer is useful only if it improves a target-specific criterion under matched resources:
 
-\[
+$$
  \Delta_{\mathrm{transfer}}
  = Q_t(U_\psi(F_\phi(x,c_s),c_t,a_t))
  -Q_t(B_t),
-\]
+$$
 
-where \(Q_t\) is the target evaluation and \(B_t\) is a properly budget-matched baseline. Positive \(\Delta_{\mathrm{transfer}}\) on one benchmark does not establish a generally reusable core. Its stability across target shifts and trials must be examined.
+where $Q_t$ is the target evaluation and $B_t$ is a properly budget-matched baseline. Positive $\Delta_{\mathrm{transfer}}$ on one benchmark does not establish a generally reusable core. Its stability across target shifts and trials must be examined.
 
-A separate compression statistic, such as description length or representation dimensionality, can be recorded, but should not be substituted for transfer utility. A smaller \(z\) can be worse, better, or equivalent depending on the task and the information discarded.
+A separate compression statistic, such as description length or representation dimensionality, can be recorded, but should not be substituted for transfer utility. A smaller $z$ can be worse, better, or equivalent depending on the task and the information discarded.
 
 ![Fig-004-Folding-Generalization-and-Structural-Transfer.png](../figures/Fig-004-Folding-Generalization-and-Structural-Transfer.png)
 
@@ -99,7 +99,7 @@ A folded structure may make similarities between previously unrelated tasks visi
 
 ### 4.5 Reverse direction: transfer tests refine the core
 
-Failed target transfers can identify missing conditions, misleading invariants, or overbroad abstractions. The system may then refine \(F_\phi\), attach boundary conditions to \(z\), or maintain several perspective-specific cores rather than one universal representation.
+Failed target transfers can identify missing conditions, misleading invariants, or overbroad abstractions. The system may then refine $F_\phi$, attach boundary conditions to $z$, or maintain several perspective-specific cores rather than one universal representation.
 
 ## 5. What Must Be Preserved?
 
@@ -154,12 +154,12 @@ This two-phase pattern connects to the project's companion work on weak-evidence
 
 An illustrative opportunity score is
 
-\[
+$$
  S(o)=f(A_{\mathrm{structure}},D_{\mathrm{direction}},H_{\mathrm{precedent}},
  R_{\mathrm{residual}},U_{\mathrm{uncertainty}},C_{\mathrm{probe}}).
-\]
+$$
 
-The function \(f\) must be learned, calibrated, or specified for a concrete application. Its inputs are not necessarily commensurate; the expression is a design placeholder rather than a validated formula. In particular, an OTHERS term should be accompanied by a source, reason for inclusion, and falsification route.
+The function $f$ must be learned, calibrated, or specified for a concrete application. Its inputs are not necessarily commensurate; the expression is a design placeholder rather than a validated formula. In particular, an OTHERS term should be accompanied by a source, reason for inclusion, and falsification route.
 
 ![Fig-005-Directional-Intuition-and-Selective-Permeability.png](../figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png)
 

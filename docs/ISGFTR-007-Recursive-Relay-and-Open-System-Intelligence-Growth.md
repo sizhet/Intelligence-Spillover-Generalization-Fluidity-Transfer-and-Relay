@@ -65,35 +65,35 @@ A useful test is counterfactual: *Would the system behave differently in a justi
 
 ## 4. A Minimal Structural Model
 
-Represent the system at episode \(t\) by
+Represent the system at episode $t$ by
 
-\[
+$$
 \mathcal{S}_t=(U_t,G_t,P_t,M_t,V_t,B_t),
-\]
+$$
 
-where \(U_t\) is the available set of intelligence units, \(G_t\) the interaction and calling graph, \(P_t\) the routing and flow policies, \(M_t\) the persistent memory or precedent store, \(V_t\) the evaluation and governance rules, and \(B_t\) the resource and action boundaries.
+where $U_t$ is the available set of intelligence units, $G_t$ the interaction and calling graph, $P_t$ the routing and flow policies, $M_t$ the persistent memory or precedent store, $V_t$ the evaluation and governance rules, and $B_t$ the resource and action boundaries.
 
 A candidate relay event is
 
-\[
+$$
 r_t=(u_s,u_d,a,c,e,p,\kappa),
-\]
+$$
 
-with source \(u_s\), destination \(u_d\), transferred artifact or responsibility \(a\), context \(c\), supporting evidence \(e\), provenance \(p\), and constraints \(\kappa\).
+with source $u_s$, destination $u_d$, transferred artifact or responsibility $a$, context $c$, supporting evidence $e$, provenance $p$, and constraints $\kappa$.
 
 An update rule can be written abstractly as
 
-\[
+$$
 \mathcal{S}_{t+1}=\mathcal{U}(\mathcal{S}_t,r_t,o_t,v_t),
-\]
+$$
 
-where \(o_t\) is the observed outcome and \(v_t\) is a validation result. This is a specification of a research object, not a proposed universal learning algorithm.
+where $o_t$ is the observed outcome and $v_t$ is a validation result. This is a specification of a research object, not a proposed universal learning algorithm.
 
-Let \(Q(\mathcal{S};D,B)\) measure effective performance on evaluation distribution \(D\) under fixed resource conditions \(B\). An observed gain is
+Let $Q(\mathcal{S};D,B)$ measure effective performance on evaluation distribution $D$ under fixed resource conditions $B$. An observed gain is
 
-\[
+$$
 \Delta Q_t=Q(\mathcal{S}_{t+1};D_{\mathrm{holdout}},B)-Q(\mathcal{S}_t;D_{\mathrm{holdout}},B).
-\]
+$$
 
 For a growth claim, the experiment must establish that the gain is statistically credible, persists after a retention interval, and cannot be explained solely by extra compute, leaked evaluation examples, or access to a previously unavailable expert.
 
@@ -161,9 +161,9 @@ Evidence should not be counted as independent merely because it passes through m
 
 A heuristic accounting identity is
 
-\[
+$$
 \Delta I_{\mathrm{net}}=\Delta I_{\mathrm{reuse}}+\Delta I_{\mathrm{composition}}+\Delta I_{\mathrm{learning}}-\Delta I_{\mathrm{loss}},
-\]
+$$
 
 where each term must be defined using a consistent evaluation measure before numerical use. The expression is conceptual; it is not a physical conservation law or a generally additive decomposition.
 
@@ -175,9 +175,9 @@ Open-ended exploration also requires explicit stopping criteria. More trails, mo
 
 When several relay paths are available, a control plane can rank them by expected value rather than assume every path should be explored. A conceptual selection rule is
 
-\[
+$$
 V(r)=\widehat{p}_{\mathrm{success}}(r)\,\widehat{G}(r)+\lambda\widehat{IG}(r)-\widehat{C}(r)-\widehat{R}(r),
-\]
+$$
 
 where success probability, growth value, information gain, cost, and risk are estimates, not known quantities. Terms require compatible units or a separately justified multi-objective ranking scheme. In early research, an ordinal score may be more defensible than a numerical probability.
 

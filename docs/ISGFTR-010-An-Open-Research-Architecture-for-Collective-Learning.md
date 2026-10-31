@@ -256,11 +256,11 @@ A reusable structural bridge may take the form of a procedure, constraint, causa
 
 A conceptual transfer may be written as:
 
-\[
+$$
 \hat{y}_T = U_T\bigl(F_S(x_S),\, c_T,\, r_T\bigr),
-\]
+$$
 
-where \(F_S\) extracts a proposed reusable structure from source conditions, \(U_T\) localizes or unfolds it for target context \(c_T\), and \(r_T\) denotes residual assumptions and uncertainty. This is an illustrative decomposition, not a universal theorem or an executable algorithm.
+where $F_S$ extracts a proposed reusable structure from source conditions, $U_T$ localizes or unfolds it for target context $c_T$, and $r_T$ denotes residual assumptions and uncertainty. This is an illustrative decomposition, not a universal theorem or an executable algorithm.
 
 The relay record should disclose what was preserved, discarded, approximated, or recovered through new evidence. Two-phase search offers one implementation strategy: broad candidate discovery followed by narrower, more rigorous evaluation. Metric-native directional scoring may guide candidate generation where full embedding or exact matching is impractical, but must compete against simpler baselines.
 
@@ -270,12 +270,12 @@ The relay record should disclose what was preserved, discarded, approximated, or
 
 Prospecting must balance exploitation of credible transfers with exploration of uncertain but potentially informative hypotheses. A generic, policy-dependent priority function is:
 
-\[
+$$
 P(h \mid p) = w_u U(h,p) + w_i I(h,p) + w_r R(h,p)
              - w_c C(h,p) - w_k K(h,p),
-\]
+$$
 
-where \(h\) is a hypothesis, \(p\) an evaluation perspective, \(U\) estimated utility, \(I\) expected information value, \(R\) possible structural reuse, \(C\) cost, and \(K\) risk. The weights are governance choices, not universal constants. Scores should not be interpreted as calibrated probabilities unless validated as such.
+where $h$ is a hypothesis, $p$ an evaluation perspective, $U$ estimated utility, $I$ expected information value, $R$ possible structural reuse, $C$ cost, and $K$ risk. The weights are governance choices, not universal constants. Scores should not be interpreted as calibrated probabilities unless validated as such.
 
 A portfolio may deliberately include high-uncertainty probes, replication studies, adversarial counterexamples, and low-cost negative controls. Otherwise, ranking systems may optimize only for familiar successes and fail to discover genuinely new transfer mechanisms.
 
