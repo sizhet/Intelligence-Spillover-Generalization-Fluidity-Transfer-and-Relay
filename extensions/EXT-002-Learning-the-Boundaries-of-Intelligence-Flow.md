@@ -46,17 +46,17 @@ A global openness parameter cannot adequately describe context, risk, evidence p
 
 Let a candidate flow be
 
-\[
+$$
  f=(s,t,o,m,c),
-\]
+$$
 
-where \(s\) is the source, \(t\) the target, \(o\) the object transferred, \(m\) the proposed transfer mechanism, and \(c\) the relevant context. Let \(b\) describe the boundary type, policy version, allowed operations, evidence requirements, and authority constraints. The policy produces a decision
+where $s$ is the source, $t$ the target, $o$ the object transferred, $m$ the proposed transfer mechanism, and $c$ the relevant context. Let $b$ describe the boundary type, policy version, allowed operations, evidence requirements, and authority constraints. The policy produces a decision
 
-\[
+$$
  \pi_{\mathrm{boundary}}(f,b,h)\rightarrow (a,r,q),
-\]
+$$
 
-where \(h\) is the available evidence history, \(a\) is an admissibility decision, \(r\) is the permitted research or execution route, and \(q\) is an auditable rationale with uncertainty. This expression is a design abstraction, not an established cognitive law.
+where $h$ is the available evidence history, $a$ is an admissibility decision, $r$ is the permitted research or execution route, and $q$ is an auditable rationale with uncertainty. This expression is a design abstraction, not an established cognitive law.
 
 ## 3. Four Distinct Permissions
 
@@ -70,6 +70,10 @@ A central proposal is a **four-permission boundary ladder**:
 | Deploy | Authorize consequential use | Separate operational authorization and monitoring | Research validation overrides governance |
 
 These permissions are not necessarily a linear automatic progression. A system may continue to observe a contested candidate while refusing adoption; it may revoke deployment while preserving its historical evidence. No learning algorithm should grant itself additional authority merely because its score improves.
+
+![Fig-005-Directional-Intuition-and-Selective-Permeability.png](../figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png)
+
+*Fig-005. Weak-evidence directional guidance through selectively permeable research boundaries. Exploratory ranking, claim validation, and deployment permission are independent decisions.*
 
 ## 4. Sources of Boundary-Learning Signals
 
@@ -167,6 +171,10 @@ A proposed cycle is:
 
 This cycle extends the Prospect → Probe → Validate → Relay → Learn loop from ISGFTR-008. It does not require all stages to be automated.
 
+![Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png](../figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png)
+
+*Fig-007. Capability prospecting across uncertain frontiers: opportunity generation, prioritization, probing, evidence-based claim revision, and feedback into future research.*
+
 ## 7. Candidate Learning Mechanisms
 
 Several approaches may be compared rather than assumed equivalent.
@@ -253,6 +261,10 @@ Boundaries can be learned at multiple levels:
 | Evolutionary | Revise the architecture that proposes boundary policies | Recursive error amplification or uncontrolled complexity |
 
 Cross-system relay requires provenance, local compatibility checks, and independent validation. A policy successful in one environment must not be automatically promoted to a universal boundary rule.
+
+![Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png](../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png)
+
+*Fig-008. Recursive evidence-bearing relay across systems and time. Durable growth is an outcome to be tested, with negative results, saturation, and rollback explicitly represented.*
 
 ## 12. A Minimal Research Architecture
 
@@ -437,14 +449,6 @@ Intelligence fluidity may depend not only on what a system can transfer, but als
 The central empirical challenge remains open: **does learning the boundaries of intelligence flow produce verified, durable improvements over simpler alternatives under comparable cost and risk?** A convincing answer requires controlled experiments, negative results, and independent replication—not architectural plausibility alone.
 
 ---
-
-## Suggested Figure Placement
-
-- **Fig-005-Directional-Intuition-and-Selective-Permeability.png:** After Section 3, illustrating typed boundary permissions and directional candidate flow.
-- **Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png:** After Section 6, illustrating the evidence-driven boundary-learning cycle.
-- **Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png:** After Section 11, illustrating policy updates and temporal/collective relay.
-
-These references are planned figure placements; the diagrams should be checked against the final figure assets before release.
 
 ## Related Research Areas
 

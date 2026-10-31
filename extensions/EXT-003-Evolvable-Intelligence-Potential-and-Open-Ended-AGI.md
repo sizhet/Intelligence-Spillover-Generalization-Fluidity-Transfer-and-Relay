@@ -41,11 +41,11 @@ These are *families of scoped claims*, not necessarily nested circles or a singl
 
 ### 2.3 Evolvable intelligence potential
 
-Let a system state be \(S_t\), an admissible modification policy be \(\Pi\), a resource budget be \(B\), and an evaluation family be \(\mathcal{E}\). Define an exploratory potential set:
+Let a system state be $S_t$, an admissible modification policy be $\Pi$, a resource budget be $B$, and an evaluation family be $\mathcal{E}$. Define an exploratory potential set:
 
-\[
-\mathcal{P}(S_t,\Pi,B,\mathcal{E}) = \{c : \exists\, \pi\in\Pi,\; \operatorname{cost}(\pi)\le B,\; \operatorname{Validate}_{\mathcal{E}}(c\mid \pi(S_t))=1\}.
-\]
+$$
+\mathcal{P}(S_t,\Pi,B,\mathcal{E}) = \{c : \exists\, \pi\in\Pi,\; \mathrm{cost}(\pi)\le B,\; \mathrm{Validate}_{\mathcal{E}}(c\mid \pi(S_t))=1\}.
+$$
 
 This is an **idealized research definition**, not a computable oracle. In practice the set is only partially sampled, the admissible policies may be unknown, and validation may be noisy. An observed expansion in the estimated set must be reported with its evaluation scope and confidence limits. Larger search budgets can produce apparent growth without improving the underlying learning mechanism.
 
@@ -95,14 +95,14 @@ A system may be highly useful without meeting any robust AGI definition. AGI sho
 
 ## 6. Learning–Execution Decoupling and Its Limits
 
-Let execution units \(U_1,\ldots,U_n\) remain parameter-frozen while a system-level state \(M_t\) stores verified precedents, routing rules, decomposition templates, constraints, and negative evidence. The execution policy may be written schematically as
+Let execution units $U_1,\ldots,U_n$ remain parameter-frozen while a system-level state $M_t$ stores verified precedents, routing rules, decomposition templates, constraints, and negative evidence. The execution policy may be written schematically as
 
-\[
-a_t = \operatorname{Execute}(U_{1:n},\; x_t,\; M_t,\; \rho_t),
-\qquad M_{t+1}=\operatorname{Learn}(M_t,\; x_t,\; a_t,\; e_t),
-\]
+$$
+a_t = \mathrm{Execute}(U_{1:n},\; x_t,\; M_t,\; \rho_t),
+\qquad M_{t+1}=\mathrm{Learn}(M_t,\; x_t,\; a_t,\; e_t),
+$$
 
-where \(\rho_t\) is an authorized routing policy and \(e_t\) is evaluated evidence. Improvement in this setting demonstrates **system-level adaptation**, not weight-level learning in the units.
+where $\rho_t$ is an authorized routing policy and $e_t$ is evaluated evidence. Improvement in this setting demonstrates **system-level adaptation**, not weight-level learning in the units.
 
 The decoupling hypothesis faces clear ceilings. Fixed units may lack essential perceptual, reasoning, or actuation primitives. Better coordination cannot always synthesize a missing primitive. A system's external memory may become stale, inconsistent, or too expensive to search. A fair experiment must compare against a strong static system with the same tools, tokens, memory budget, and available information.
 
@@ -125,11 +125,11 @@ Capability Prospecting asks which unverified transformations deserve investigati
 
 A conceptual prioritization function is:
 
-\[
+$$
 Q(p) = w_u U(p) + w_i I(p) + w_r R(p) - w_c C(p) - w_h H(p) - w_d D(p),
-\]
+$$
 
-where \(U\) is hypothesized utility, \(I\) expected information value, \(R\) potential structural reuse, \(C\) cost, \(H\) hazard or negative-transfer exposure, and \(D\) evidence redundancy. Weights are policy-dependent. The score is **an exploration ranking**, not a calibrated probability of success. The scoring process itself should be tested against random, similarity-based, and expert-curated selection baselines.
+where $U$ is hypothesized utility, $I$ expected information value, $R$ potential structural reuse, $C$ cost, $H$ hazard or negative-transfer exposure, and $D$ evidence redundancy. Weights are policy-dependent. The score is **an exploration ranking**, not a calibrated probability of success. The scoring process itself should be tested against random, similarity-based, and expert-curated selection baselines.
 
 A prospect must carry its unresolved assumptions, candidate source/target mapping, OTHERS residuals, possible counterexamples, and stop conditions. Otherwise the search process may preferentially preserve attractive stories while discarding disconfirming evidence.
 
@@ -153,9 +153,9 @@ This design is intended to make independent verification easier, not merely to m
 
 Physical, computational, informational, and institutional limits matter. Exploration consumes energy, time, expert attention, and sometimes scarce real-world opportunities. Increasing the number of agents or trials can worsen coordination overhead, correlated errors, or safety exposure. We therefore reject an assumption of infinite growth and propose studying **growth efficiency**:
 
-\[
+$$
 \eta_{\mathrm{growth}} = \frac{\text{independently validated, durable capability gain}}{\text{total incremental research and operating cost}}.
-\]
+$$
 
 The numerator is multidimensional and cannot always be reduced to a scalar. Reports should show the underlying dimensions, such as transfer breadth, robustness, task success, and retention, rather than presenting one score as universal intelligence.
 

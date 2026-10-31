@@ -111,21 +111,21 @@ The architecture is conceptual. A single program may implement several component
 
 ### 6.1 A minimal decision model
 
-For candidate crossing \(c\) under context \(x\), consider an illustrative policy:
+For candidate crossing $c$ under context $x$, consider an illustrative policy:
 
-\[
+$$
 \pi_{\mathrm{perm}}(c,x) \in \{\text{reject},\text{observe},\text{sandbox},\text{validate},\text{authorize}\}.
-\]
+$$
 
 An exploration priority may be represented as:
 
-\[
+$$
 Q(c\mid x)=w_v V(c,x)+w_i I(c,x)+w_r R(c,x)-w_k K(c,x)-w_h H(c,x)-w_u U(c,x),
-\]
+$$
 
-where \(V\) is estimated task value, \(I\) information value, \(R\) structural reuse potential, \(K\) cost, \(H\) harm or failure exposure, and \(U\) unresolved mismatch or uncertainty burden. Weights are policy parameters, not universal constants. These quantities may be ordinal, heterogeneous, or uncertain; naive weighted sums can conceal incomparable criteria. A practical implementation may instead use constrained ranking, Pareto selection, or hard safety exclusions.
+where $V$ is estimated task value, $I$ information value, $R$ structural reuse potential, $K$ cost, $H$ harm or failure exposure, and $U$ unresolved mismatch or uncertainty burden. Weights are policy parameters, not universal constants. These quantities may be ordinal, heterogeneous, or uncertain; naive weighted sums can conceal incomparable criteria. A practical implementation may instead use constrained ranking, Pareto selection, or hard safety exclusions.
 
-**Important:** \(Q\) is an exploratory ranking aid, not a calibrated probability of successful transfer and not evidence that a capability exists.
+**Important:** $Q$ is an exploratory ranking aid, not a calibrated probability of successful transfer and not evidence that a capability exists.
 
 ## 7. Selective Permeability as a Dynamic Policy
 
@@ -146,11 +146,11 @@ An adaptive controller must not silently promote exploratory objects into execut
 
 Biomimetic flexibility motivates searching beyond exact structural matches. A source domain may share causal or operational relations with a target while differing in units, semantics, constraints, or failure costs. The candidate mapping should therefore retain both a proposed shared core and a residual mismatch:
 
-\[
+$$
 M_{s\to t}=(C_{\mathrm{shared}},\Delta_{s\to t},\mathcal{R}_{\mathrm{unresolved}}).
-\]
+$$
 
-Here \(C_{\mathrm{shared}}\) denotes hypothesized reusable relations, \(\Delta_{s\to t}\) required adaptations, and \(\mathcal{R}_{\mathrm{unresolved}}\) the explicitly unmodeled differences. This is a representation proposal, not a proof that a canonical decomposition exists.
+Here $C_{\mathrm{shared}}$ denotes hypothesized reusable relations, $\Delta_{s\to t}$ required adaptations, and $\mathcal{R}_{\mathrm{unresolved}}$ the explicitly unmodeled differences. This is a representation proposal, not a proof that a canonical decomposition exists.
 
 An OTHERS residual can be valuable as a *search direction* when standard similarity scores fail. But high novelty can also indicate irrelevance. A useful system should test whether residual-aware candidate selection yields more verified discoveries than novelty-only, similarity-only, or random baselines.
 
