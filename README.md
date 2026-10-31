@@ -231,6 +231,8 @@ The intended **v1.0.0 release is theory-first**: the papers, proposed contracts,
 
 The intended repository license is **Apache License 2.0**. See [`LICENSE.txt`](LICENSE.txt) for the controlling license text once published. Authors, release dates, archive identifiers, and citation details should be verified against `CITATION.cff` and the eventual archived release before formal citation.
 
+DOI: 10.5281/zenodo.23842163
+
 ---
 
 ## 📚 DBM-SI Series Navigation
