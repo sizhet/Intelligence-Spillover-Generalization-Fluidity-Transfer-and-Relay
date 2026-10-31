@@ -4,7 +4,7 @@
 **Document type:** Illustrative research case and falsifiable experimental protocol  
 **Version:** v1.0.0 (theory-first)  
 **Status:** Proposed experiment; no empirical findings claimed  
-**Date:** 2026-10-30  
+**Date:** 2026-10-31  
 **Related documents:** ISGFTR-003–010; SPEC-001–004; CASE-001–002
 
 ## Abstract
@@ -401,7 +401,7 @@ Advancement between phases should depend on documented conformance and evidence 
 - **Supporting:** `figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png` — reference in Sections 6–9 for directional evidence and exploratory gating.
 - **Supporting:** `figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png` — reference in Section 14 for temporal relay and iterative evidence accumulation.
 
-These are planned figure references; the experiment does not depend on the figures' existence.
+These are figure references; the experiment does not depend on the figures' existence.
 
 ## 22. Conclusion and Collective Learning Invitation
 

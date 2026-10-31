@@ -4,7 +4,7 @@
 **Document type:** Open research extension and falsifiable conceptual proposal  
 **Version:** v1.0.0 (theory-first)  
 **Status:** Hypotheses and proposed experiments; no empirical validation claimed  
-**Date:** 2026-10-30  
+**Date:** 2026-10-31  
 **Related documents:** ISGFTR-002, ISGFTR-003, ISGFTR-004, ISGFTR-005, ISGFTR-006, ISGFTR-007, ISGFTR-008, ISGFTR-009, ISGFTR-010; SPEC-001–004; CASE-001–003
 
 ## Abstract
@@ -342,7 +342,7 @@ Related research traditions include adaptive control, attention and cognitive fl
 - **Supporting:** `figures/Fig-006-System-Centric-Multi-Level-Learning.png` — reference near Section 9 for the learning–execution distinction.
 - **Supporting:** `figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png` — reference near Section 16 for evidence feedback and temporal relay.
 
-Figure filenames indicate planned assets; the present document does not imply that the figures have been empirically validated.
+Figure filenames indicate assets; the present document does not imply that the figures have been empirically validated.
 
 ## 20. Conclusion and Collective Learning Invitation
 

@@ -4,7 +4,7 @@
 **Document type:** Open research extension and falsifiable conceptual proposal  
 **Version:** v1.0.0 (theory-first)  
 **Status:** Proposed mechanisms and validation program; no empirical results claimed  
-**Date:** 2026-10-30  
+**Date:** 2026-10-31  
 **Related documents:** ISGFTR-002–010; SPEC-001–004; CASE-001–003; EXT-001
 
 ## Abstract

@@ -4,7 +4,7 @@
 **Document type:** Exploratory research extension and falsifiable architectural hypotheses  
 **Version:** 1.0.0 (theory-first)  
 **Status:** Open research proposal; no claim of demonstrated AGI  
-**Date:** 2026-10-30
+**Date:** 2026-10-31
 
 ## Abstract
 

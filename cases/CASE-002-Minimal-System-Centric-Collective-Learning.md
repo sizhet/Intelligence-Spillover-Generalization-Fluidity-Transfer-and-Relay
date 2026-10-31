@@ -4,7 +4,7 @@
 **Document type:** Illustrative research case and falsifiable experimental protocol  
 **Version:** 1.0.0 (theory-first)  
 **Status:** Proposed experiment; no empirical results claimed  
-**Date:** 2026-10-30  
+**Date:** 2026-10-31  
 **Related documents:** ISGFTR-006, ISGFTR-007, ISGFTR-008, ISGFTR-009, ISGFTR-010; SPEC-001–004; CASE-001
 
 ## Abstract
@@ -314,7 +314,7 @@ These interfaces are conceptual alignment points; exact machine schemas require 
 - **Secondary:** `figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png` — reference after Section 6 to show the evidence-to-update loop.
 - **Supporting:** `figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png` — reference after Section 13 for cross-domain candidate discovery.
 
-These are planned repository figures; their presence and exact content should be verified during publication preparation.
+These are repository figures; their presence and exact content should be verified during publication preparation.
 
 ## 21. Collective Learning Invitation
 

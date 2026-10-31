@@ -4,7 +4,7 @@
 **Document type:** Illustrative research case and preregistrable experimental protocol  
 **Version:** v1.0.0 (theory-first)  
 **Status:** Proposed case study; illustrative examples are not experimental findings  
-**Date:** 2026-10-30
+**Date:** 2026-10-31
 
 ## Abstract
 
