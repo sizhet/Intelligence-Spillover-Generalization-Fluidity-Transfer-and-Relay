@@ -95,7 +95,7 @@ The cases are **research designs**, not reports of executed or successful experi
 
 The repository is organized around `README.md`, `START-HERE.md`, `CONTENTS.md`, `GLOSSARY.md`, `FIGURE-INDEX.md`, `FUTURE-DIRECTIONS.md`, `OPEN-QUESTIONS.md`, `TESTABLE-HYPOTHESES.md`, `VALIDATION-ROADMAP.md`, `CHANGELOG.md`, `CITATION.cff`, and `.zenodo.json`.
 
-The planned visual sequence consists of eight figures, from `Fig-001-ISGFTR-Grand-Architecture.png` to `Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png`. **Verify that all eight exist as separate correctly named files in `figures/` before publishing links to them.**
+The visual sequence consists of eight figures, from `Fig-001-ISGFTR-Grand-Architecture.png` to `Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png`. **Verify that all eight exist as separate correctly named files in `figures/` before publishing links to them.**
 
 ## How to Read This Release
 
@@ -135,7 +135,7 @@ ISGFTR is offered as a **collective-learning-friendly** research framework. Crit
 
 ### Pre-publication checklist (remove or retain as internal release guidance)
 
-- [ ] All 20 research documents are present under the planned `docs/`, `specs/`, `cases/`, and `extensions/` paths.
+- [ ] All 20 research documents are present under the `docs/`, `specs/`, `cases/`, and `extensions/` paths.
 - [ ] Root navigation files and internal links have been checked.
 - [ ] All eight figures are separately exported, correctly named, and legible.
 - [ ] `LICENSE.txt` contains the intended Apache-2.0 text.
