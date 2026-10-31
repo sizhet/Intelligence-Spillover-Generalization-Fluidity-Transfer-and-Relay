@@ -32,6 +32,10 @@ We therefore use a deliberately narrow operational definition:
 
 This is an *observable experimental contrast*. It is not direct evidence of a particular neural mechanism, and it does not imply durable model-weight learning.
 
+![Fig-003-Five-Characteristics-of-Intelligence-Flow.png](../figures/Fig-003-Five-Characteristics-of-Intelligence-Flow.png)
+
+*Fig-003. Five distinguishable characteristics of intelligence flow and their possible interactions. Flow, successful transfer, and persistent growth remain separate empirical claims.*
+
 ## 3. Two Domains and Their Shared Candidate Core
 
 ### 3.1 Source domain: software maintenance planning
@@ -55,11 +59,11 @@ Both domains admit a candidate abstraction:
 
 The abstraction can be written as a constraint-bearing task graph
 
-\[
+$$
 G=(V,E,\mathcal{R},\mathcal{C},\mathcal{O}),
-\]
+$$
 
-where \(V\) denotes tasks, \(E\) precedence edges, \(\mathcal{R}\) resources, \(\mathcal{C}\) constraints, and \(\mathcal{O}\) evaluation objectives. This is an **analyst-proposed common representation**; its usefulness is an empirical question. For example, travel times and geography have no straightforward counterpart in many code-maintenance tasks, while software test dependencies may have no service-scheduling equivalent. These residuals must be preserved rather than forcibly folded into a false equivalence.
+where $V$ denotes tasks, $E$ precedence edges, $\mathcal{R}$ resources, $\mathcal{C}$ constraints, and $\mathcal{O}$ evaluation objectives. This is an **analyst-proposed common representation**; its usefulness is an empirical question. For example, travel times and geography have no straightforward counterpart in many code-maintenance tasks, while software test dependencies may have no service-scheduling equivalent. These residuals must be preserved rather than forcibly folded into a false equivalence.
 
 ### 3.4 Structural core versus domain residual
 
@@ -72,6 +76,10 @@ where \(V\) denotes tasks, \(E\) precedence edges, \(\mathcal{R}\) resources, \(
 | Revision | Replan after changes | New defects and failed tests | Cancellations, traffic, weather |
 
 **Transfer is supported only to the extent that the core helps and the residuals are correctly handled.**
+
+![Fig-004-Folding-Generalization-and-Structural-Transfer.png](../figures/Fig-004-Folding-Generalization-and-Structural-Transfer.png)
+
+*Fig-004. Hypothesized path from source observations to a reusable structural core and target-domain probes, with residuals, uncertainty, and validation retained explicitly.*
 
 ## 4. Research Hypotheses
 
@@ -127,13 +135,17 @@ A prospect record identifies the proposed source capability, target task family,
 
 A simple **exploration priority** can be defined for ranking only:
 
-\[
+$$
 Q(o)=w_v V(o)+w_i I(o)+w_s S(o)-w_c C(o)-w_r R(o),
-\]
+$$
 
-where \(V\) is estimated task value, \(I\) information gain, \(S\) structural plausibility, \(C\) cost, and \(R\) risk. The components must be normalized or the weights otherwise justified. **\(Q\) is not a calibrated probability of success.** Weights and thresholds must be fixed or versioned before evaluating held-out outcomes.
+where $V$ is estimated task value, $I$ information gain, $S$ structural plausibility, $C$ cost, and $R$ risk. The components must be normalized or the weights otherwise justified. **$Q$ is not a calibrated probability of success.** Weights and thresholds must be fixed or versioned before evaluating held-out outcomes.
 
 **Gate A** asks whether the opportunity is sufficiently well specified, safe, informative, and affordable to test. Rejection at Gate A means “not admitted for this experiment,” not “impossible transfer.”
+
+![Fig-005-Directional-Intuition-and-Selective-Permeability.png](../figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png)
+
+*Fig-005. Weak-evidence directional guidance through selectively permeable research boundaries. Exploratory ranking, claim validation, and deployment permission are independent decisions.*
 
 ## 8. Registered Probe Protocol
 
@@ -148,6 +160,10 @@ Each admitted prospect receives a protocol with:
 7. A rule for whether and how a claim can be promoted after review.
 
 **Illustrative preregistration:** compare Arms E and B on a held-out target set using paired task-level differences in hard-constraint validity. Report a confidence interval for the difference and separately report cost-adjusted utility. If a numerical success threshold is selected, preregister it; do not choose it after observing the results. Repeated attempts on the same task must be counted and reported, not silently treated as a single independent trial.
+
+![Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png](../figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png)
+
+*Fig-007. Capability prospecting across uncertain frontiers: opportunity generation, prioritization, probing, evidence-based claim revision, and feedback into future research.*
 
 ## 9. Evaluation and Measurement
 
@@ -219,6 +235,10 @@ Compare three prospecting policies under the same future evaluation budget:
 The primary endpoint is independently validated target utility per budget, not merely the number of opportunities proposed. If the full-history policy outperforms controls, that supports **system-level learning from evidence relay**. It does not demonstrate learning within the frozen LLM. If it fails, the negative result is still valuable: it identifies limits in representation, evidence selection, or routing.
 
 Repeated execution counts as a relay event only if it leaves a traceable record; it counts as learning only if later decisions demonstrably improve under controlled comparison.
+
+![Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png](../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png)
+
+*Fig-008. Recursive evidence-bearing relay across systems and time. Durable growth is an outcome to be tested, with negative results, saturation, and rollback explicitly represented.*
 
 ## 13. Alignment With the ISGFTR Contracts
 
@@ -335,14 +355,6 @@ A negative finding that sharply delineates where the source core fails may be mo
 This case turns a broad idea—LLM capability spillover across task boundaries—into a constrained, falsifiable research program. The central experiment is not whether an LLM can produce plausible prose about two domains. It is whether a proposed common structure produces **measurable, robust, cost-aware improvements** on held-out target tasks under meaningful controls. The design also tests whether explicit residual handling prevents negative transfer and whether evidence relay improves later prospect selection with fixed model weights. Any successful outcome should be attributed narrowly to the tested model–prompt–tool–task system; any failure should be retained as evidence. This disciplined separation of possibility, observation, validation, adoption, and growth is the intended contribution to ISGFTR's open collective-learning agenda.
 
 ---
-
-## Suggested Figure Placement
-
-- **Fig-003 — Five Characteristics of Intelligence Flow:** near Section 2 to situate spillover, generalization, fluidity, transfer, and relay.
-- **Fig-004 — Folding, Generalization, and Structural Transfer:** after Section 3 to illustrate the proposed common core and preserved residuals.
-- **Fig-005 — Directional Intuition and Selective Permeability:** after Section 7 to illustrate candidate prospecting and Gate A.
-- **Fig-007 — Spillover Prospecting and Capability Frontiers:** after Section 8 to illustrate prospect-to-probe transitions.
-- **Fig-008 — Recursive Relay and Collective Intelligence Growth:** after Section 12 to illustrate temporal evidence relay.
 
 **Related ISGFTR documents:** `ISGFTR-003`, `ISGFTR-004`, `ISGFTR-005`, `ISGFTR-006`, `ISGFTR-007`, `ISGFTR-008`, `ISGFTR-009`, `ISGFTR-010`; `SPEC-001` through `SPEC-004`.
 

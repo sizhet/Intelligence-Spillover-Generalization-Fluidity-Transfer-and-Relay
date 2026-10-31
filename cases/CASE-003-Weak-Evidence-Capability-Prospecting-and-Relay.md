@@ -167,13 +167,13 @@ A score of `null` is preferable to a fabricated numeric confidence. If a scoring
 
 ## 8. Prospecting Portfolio and Priority Assessment
 
-For candidate opportunity \(i\), a possible **exploration utility** is:
+For candidate opportunity $i$, a possible **exploration utility** is:
 
-\[
+$$
 U_i = \alpha V_i + \beta I_i + \gamma R_i - \delta C_i - \epsilon H_i - \zeta D_i,
-\]
+$$
 
-where \(V_i\) is estimated task value, \(I_i\) expected information gain, \(R_i\) potential structural reuse, \(C_i\) probe cost, \(H_i\) harm or negative-transfer risk, and \(D_i\) evidence-dependency or redundancy penalty. Weights are policy choices, not universal constants. The terms require operational definitions and should be normalized or otherwise made comparable before use.
+where $V_i$ is estimated task value, $I_i$ expected information gain, $R_i$ potential structural reuse, $C_i$ probe cost, $H_i$ harm or negative-transfer risk, and $D_i$ evidence-dependency or redundancy penalty. Weights are policy choices, not universal constants. The terms require operational definitions and should be normalized or otherwise made comparable before use.
 
 A second option is **Pareto selection** rather than a single score: choose candidates that are not dominated across value, uncertainty reduction, cost, and risk. A portfolio may intentionally include high-uncertainty and negative-control prospects to avoid learning only from easy successes.
 
@@ -228,15 +228,15 @@ Maintain independent human or executable reference checks for whether a transfer
 
 **Primary metric — verified discovery efficiency:**
 
-\[
+$$
 \mathrm{VDE}(B) = \frac{\#\text{ independently verified useful transfers found by budget }B}{\text{total prospecting and probe cost consumed by }B}.
-\]
+$$
 
 Report both numerator and denominator with uncertainty intervals. A transfer counts only when it exceeds a pre-registered baseline and satisfies domain-specific safety or correctness constraints.
 
 Secondary metrics include:
 
-- **Precision at probe budget \(k\):** fraction of tested top-\(k\) candidates independently verified useful.
+- **Precision at probe budget $k$:** fraction of tested top-$k$ candidates independently verified useful.
 - **Recall within labeled pool:** fraction of all verified useful opportunities discovered, when a sufficiently exhaustive reference set exists.
 - **Negative-transfer rate:** fraction of tested or adopted mappings that worsen target outcomes relative to controls.
 - **Information gain per cost:** reduction in uncertainty about candidate mechanisms, under an explicitly defined estimator.
