@@ -4,7 +4,7 @@
 **Document type:** Proposed interoperable research specification  
 **Version:** v1.0.0 (theory-first)  
 **Status:** Draft research contract; not an adopted standard or validated implementation  
-**Date:** 2026-10-30
+**Date:** 2026-10-31
 
 ## Abstract
 
@@ -403,8 +403,8 @@ These questions are suitable for independent contributions, benchmark design, ne
 - ISGFTR-009 — AGI Implications, Limits, and Counterarguments.
 - ISGFTR-010 — An Open Research Architecture for Collective Learning.
 - SPEC-001 — Canonical Capability and Boundary Contract.
-- SPEC-003 — Prospecting, Probing, and Validation Lifecycle (planned).
-- SPEC-004 — Structural Relay and Collective Learning Contract (planned).
+- SPEC-003 — Prospecting, Probing, and Validation Lifecycle.
+- SPEC-004 — Structural Relay and Collective Learning Contract.
 
 The broader Structural Intelligence research program—including BM-ODWEI and Metric-Native Directional Intuition, UCPSF, SIF, UIERU, and AQSI—offers candidate mechanisms and research connections. Their relevance should be evaluated rather than assumed.
 

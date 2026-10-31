@@ -4,7 +4,7 @@
 **Document type:** Proposed interoperable research specification  
 **Version:** v1.0.0 (theory-first)  
 **Status:** Draft research contract; not an adopted standard or validated implementation  
-**Date:** 2026-10-30
+**Date:** 2026-10-31
 
 ## Abstract
 
@@ -204,7 +204,7 @@ boundary_assertions:
 evidence_refs: ['example:eval-report-1', 'example:failed-cases-1']
 provenance:
   origin: 'illustrative example, not actual measured results'
-  created_at: '2026-10-30'
+  created_at: '2026-10-31'
 uncertainty:
   note: 'No quantitative performance figures are asserted.'
 limitations:
@@ -270,8 +270,6 @@ A second experiment adds a persistent routing memory that improves task selectio
 This specification operationalizes the four boundaries introduced in **ISGFTR-001**, the five-characteristic distinction of **ISGFTR-002**, structural reuse in **ISGFTR-003**, selective permeability in **ISGFTR-004**, directional weak evidence in **ISGFTR-005**, multi-level learning in **ISGFTR-006**, recursive relay in **ISGFTR-007**, prospecting in **ISGFTR-008**, AGI limits in **ISGFTR-009**, and the open research architecture in **ISGFTR-010**.
 
 It is particularly important for the five-plane architecture: the **Prospecting Plane** may create hypothetical boundary assertions; the **Experiment Plane** generates observations; the **Evidence Plane** assesses quality and contradictions; the **Relay Plane** transports versioned records; and the **Governance Plane** controls permissible promotion and use. These planes are logical responsibilities, not mandatory software services.
-
-**Suggested figure references:** `figures/Fig-002-Four-Intelligence-Boundaries.png` after Section 3; `figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png` after Section 13. Figures are planned explanatory aids, not evidence.
 
 ## 15. Open Questions and Proposed Extensions
 

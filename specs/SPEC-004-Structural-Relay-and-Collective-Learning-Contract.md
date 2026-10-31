@@ -4,7 +4,7 @@
 **Document type:** Proposed interoperable research specification  
 **Version:** v1.0.0 (theory-first)  
 **Status:** Draft research contract; not an adopted standard or validated runtime  
-**Date:** 2026-10-30
+**Date:** 2026-10-31
 
 ## Abstract
 
