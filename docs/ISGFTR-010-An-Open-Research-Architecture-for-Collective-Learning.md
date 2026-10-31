@@ -110,6 +110,10 @@ Relay carries more than instructions. A useful artifact includes a structural br
 
 Governance assigns authority over exploration budgets, access to tools and data, evaluation standards, promotion thresholds, and rollback. It should support multiple evaluation perspectives and expose unresolved disagreements instead of forcing premature consensus.
 
+![Fig-001-ISGFTR-Grand-Architecture.png](../figures/Fig-001-ISGFTR-Grand-Architecture.png)
+
+*Fig-001. Conceptual ISGFTR architecture connecting capability prospecting, controlled experiments, evidence adjudication, structural relay, and research governance. Feedback arrows denote research opportunities, not guaranteed intelligence growth.*
+
 ---
 
 ## 4. Canonical Research Objects
@@ -131,6 +135,10 @@ A profile must not imply performance on untested tasks. A capability label witho
 ### 4.2 Boundary and gap record
 
 A **Boundary Record** distinguishes observed limitations from hypothesized reachability and longer-term evolvability. A **Gap Record** states what is missing, why it matters, and which assumptions might bridge it. Boundary categories are descriptive, not guaranteed nested scalar regions.
+
+![Fig-002-Four-Intelligence-Boundaries.png](../figures/Fig-002-Four-Intelligence-Boundaries.png)
+
+*Fig-002. Four context-dependent capability boundary questions. The illustration does not imply that the boundaries are necessarily nested, complete, or directly measurable on one axis.*
 
 ### 4.3 Prospect or transfer hypothesis
 
@@ -236,6 +244,10 @@ For each claimed gain, ask whether it arose from more computation, privileged in
 
 Repetition can supply observations, failures, confidence updates, and historical precedents. Its contribution should be tested against a **repetition-without-learning** control. If future behavior does not change, or changes only because the same task is memorized, durable generalizable learning has not been established.
 
+![Fig-006-System-Centric-Multi-Level-Learning.png](../figures/Fig-006-System-Centric-Multi-Level-Learning.png)
+
+*Fig-006. Candidate learning loci across execution units, interactions, structures, relay histories, and collectives. The learning and execution mechanisms may be decoupled.*
+
 ---
 
 ## 7. Structural Reuse, Folding, and Translation
@@ -275,6 +287,10 @@ Autonomous questioning can generate candidate gaps and alternative structural ex
 
 Weak evidence may prioritize probes through structural analogy, perspective fields, historical transfer, or OTHERS residuals. Its proper role is to **allocate attention**, not to certify results.
 
+![Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png](../figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png)
+
+*Fig-007. Capability prospecting across uncertain frontiers: opportunity generation, prioritization, probing, evidence-based claim revision, and feedback into future research.*
+
 ---
 
 ## 9. Collective Learning and Research Relay
@@ -300,6 +316,10 @@ Recipients decide whether and how to import a relay artifact. They can translate
 ### 9.5 Negative-result relay
 
 Failed transfers can be unusually valuable: they map non-invariants, expose hidden assumptions, and prevent redundant work. The system should make negative evidence searchable without treating every failure as a permanent universal impossibility.
+
+![Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png](../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png)
+
+*Fig-008. Recursive evidence-bearing relay across systems and time. Durable growth is an outcome to be tested, with negative results, saturation, and rollback explicitly represented.*
 
 ---
 
@@ -491,16 +511,6 @@ An open intelligence research architecture should make capability claims easier 
 If future controlled studies demonstrate that prospecting and relay improve discovery efficiency, robustness, and retained capability under matched resources, the framework may become a useful engineering contribution. If they do not, the same architecture should help identify which assumptions failed. In either case, the goal is **collective learning through explicit evidence and revisable structures**, not an unsupported promise of open-ended AGI.
 
 ---
-
-## Suggested Figure Placement
-
-- **Fig-001 — ISGFTR Grand Architecture:** place after Section 3 to show the five planes and cross-cutting structural memory.
-- **Fig-002 — Four Intelligence Boundaries:** reference in Section 4.2 when distinguishing observed, reachable, and evolvable claims.
-- **Fig-006 — System-Centric Multi-Level Learning:** place near Section 6.
-- **Fig-007 — Spillover Prospecting and Capability Frontiers:** reference in Section 8.
-- **Fig-008 — Recursive Relay and Collective Intelligence Growth:** place after Section 5 or Section 9 to illustrate the feedback and relay lifecycle.
-
-*Figure names are planned repository assets; the text does not presume that the images already exist.*
 
 ## Document Status and Citation Guidance
 

@@ -122,6 +122,10 @@ Some source and target structures may support native measures—graph edit opera
 
 An unexplained residual can generate a candidate for further examination. It is not, by itself, evidence that a new transferable competence exists. A null or noise explanation must remain available.
 
+![Fig-005-Directional-Intuition-and-Selective-Permeability.png](../figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png)
+
+*Fig-005. Weak-evidence directional guidance through selectively permeable research boundaries. Exploratory ranking, claim validation, and deployment permission are independent decisions.*
+
 ## 7. Prospect Ranking as Resource-Aware Decision Support
 
 Given a portfolio \(\mathcal P\) and limited budget, a ranking function can guide selection:
@@ -176,6 +180,10 @@ The proposed loop is:
 
 This loop interfaces with ISGFTR-007's recursive relay. The two mechanisms differ in emphasis: recursive relay concerns persistent transmission and adaptation, while prospecting concerns **discovery and evaluation of possible new transfer paths**.
 
+![Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png](../figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png)
+
+*Fig-007. Capability prospecting across uncertain frontiers: opportunity generation, prioritization, probing, evidence-based claim revision, and feedback into future research.*
+
 ## 10. Prospecting Across Learning Levels
 
 Prospecting is not restricted to a single foundation model. The unit of analysis can vary:
@@ -190,6 +198,10 @@ Prospecting is not restricted to a single foundation model. The unit of analysis
 | Evolutionary | Retained policy or structure revisions | Longitudinal improvement | Uncontrolled environmental change |
 
 The **Learning–Execution Unit Decoupling** hypothesis from ISGFTR-006 is especially relevant. A frozen model can participate in a system whose prospecting policy improves over time. To demonstrate learning, experiments must show that past evidence causally improves future selection or performance—not merely that a larger workflow outperforms an isolated baseline.
+
+![Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png](../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png)
+
+*Fig-008. Recursive evidence-bearing relay across systems and time. Durable growth is an outcome to be tested, with negative results, saturation, and rollback explicitly represented.*
 
 ## 11. Illustrative Prospect: Constraint Planning Across Domains
 
@@ -346,16 +358,6 @@ Intelligence spillover and transfer prospecting reframes capability discovery as
 A prospect is a question, not an answer. A probe is evidence, not proof of generality. A relay is an opportunity for learning, not a guarantee of growth. These distinctions are the basis for an open and falsifiable research program.
 
 ---
-
-## Planned Figure Placement
-
-**Primary:** `../figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png` — place after Section 9, illustrating candidate generation, directional scoring, two gates, and the recursive relay loop.
-
-**Secondary:** `../figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png` — reference in Sections 6–8.
-
-**Secondary:** `../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png` — reference in Sections 9–10.
-
-The named figures are planned conceptual illustrations, not empirical result plots. Add Markdown image links when the figure assets are available.
 
 ## Related Research Areas (Non-Exhaustive)
 

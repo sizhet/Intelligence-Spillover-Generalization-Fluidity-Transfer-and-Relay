@@ -106,6 +106,10 @@ The strongest system-centric learning claim concerns the third outcome. Reports 
 
 These levels overlap. They should not be treated as a rigid biological hierarchy or as evidence that higher levels always improve performance. A useful research program isolates which level changed and measures its marginal contribution.
 
+![Fig-006-System-Centric-Multi-Level-Learning.png](../figures/Fig-006-System-Centric-Multi-Level-Learning.png)
+
+*Fig-006. Candidate learning loci across execution units, interactions, structures, relay histories, and collectives. The learning and execution mechanisms may be decoupled.*
+
 ## 6. Structural Learning Without Updating Component Weights
 
 Consider \(n\) frozen intelligence units \(u_1,\ldots,u_n\). The system receives a task \(x\), selects a composition \(g\), executes it, obtains feedback, and updates a structural policy \(\phi\):
@@ -151,6 +155,10 @@ This is a *candidate causal chain*, not a necessary sequence. Some spillover occ
 A relay record might include source and target identifiers, task context, action taken, evidence provenance, counter-evidence, outcome metrics, uncertainty, and reuse conditions. Such records can support both reproducibility and selective forgetting when evidence becomes stale.
 
 A system may become less capable when relay spreads incorrect assumptions. Thus, a useful design separates **exploratory relay** from **validated operational relay** and preserves rejected hypotheses as negative evidence rather than silently discarding them.
+
+![Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png](../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png)
+
+*Fig-008. Recursive evidence-bearing relay across systems and time. Durable growth is an outcome to be tested, with negative results, saturation, and rollback explicitly represented.*
 
 ## 9. Selective Permeability and Directional Flow Policies
 
@@ -301,14 +309,6 @@ System-centric intelligence directs attention from the competence of an isolated
 A small frozen-unit experiment is a practical next step. Positive results would establish a limited system-level learning effect under specified conditions—not AGI. Negative results would help identify the boundaries of structural learning and improve the hypothesis. The purpose of this paper is to make that research path explicit and accessible to collective investigation.
 
 ---
-
-## Figure Placement
-
-**Primary planned figure:** `figures/Fig-006-System-Centric-Multi-Level-Learning.png`, recommended after Section 5 or Section 6.  
-**Secondary cross-reference:** `figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png`, recommended after Section 8.  
-**Optional cross-reference:** `figures/Fig-003-Five-Characteristics-of-Intelligence-Flow.png`, recommended after Section 7.
-
-Figures are conceptual diagrams, not empirical results. Because this document belongs in `docs/`, use `../figures/` for relative image links once the images exist.
 
 ## Relationship to Other ISGFTR Documents
 

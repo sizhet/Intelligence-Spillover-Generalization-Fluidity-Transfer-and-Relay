@@ -112,7 +112,9 @@ A candidate research cycle is:
 
 The loop may terminate, roll back, or branch into multiple trails. An evaluator should be able to reject an apparently promising update. No stage implies that the next stage must succeed.
 
-**Suggested conceptual figure:** `../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png` after this section. The figure should distinguish verified growth from speculative routes and depict failure/rollback paths.
+![Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png](../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png)
+
+*Fig-008. Recursive evidence-bearing relay across systems and time. Durable growth is an outcome to be tested, with negative results, saturation, and rollback explicitly represented.*
 
 ## 6. Relay as a Bridge Between Existing and New Capabilities
 
@@ -132,6 +134,10 @@ A system may progress from access to composition to retained structural learning
 ISGFTR-006 distinguishes the unit executing a task from the level at which learning occurs. Recursive relay extends this distinction temporally. An executing model can remain frozen while a shared memory, graph, evaluator, or policy changes after each episode. The resulting system may learn even if its individual components do not undergo parameter updates.
 
 This creates an experimental opportunity: hold component weights fixed, constrain tool availability, and permit only selected structural updates. If later held-out performance improves under equal budgets, researchers can investigate whether the improvement came from better organization, preserved experience, or retrieval. The attribution matters: simply expanding memory or making more calls may improve scores without demonstrating an efficient or generalizable learning rule.
+
+![Fig-006-System-Centric-Multi-Level-Learning.png](../figures/Fig-006-System-Centric-Multi-Level-Learning.png)
+
+*Fig-006. Candidate learning loci across execution units, interactions, structures, relay histories, and collectives. The learning and execution mechanisms may be decoupled.*
 
 ## 8. Evidence, Provenance, and the Problem of Error Relay
 
@@ -273,14 +279,6 @@ Recursive relay offers a candidate bridge between intelligence mobility and dura
 The practical next step is a controlled, resource-matched experiment with frozen component models and explicit structural memory. If such systems exhibit retained held-out gains, researchers can identify the responsible mechanisms and their limits. If they do not, the resulting failures still sharpen the boundaries of the hypothesis. This document offers a research structure for open validation and collective relay, not a claim of universal intelligence growth.
 
 ---
-
-## Figure Placement
-
-**Primary planned figure:** `../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png`, recommended after Section 5.  
-**Secondary cross-reference:** `../figures/Fig-006-System-Centric-Multi-Level-Learning.png`, recommended after Section 7.  
-**Optional cross-reference:** `../figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png`, recommended after Section 10.
-
-All figures are conceptual until accompanied by experimental evidence.
 
 ## Relationship to Other ISGFTR Documents
 

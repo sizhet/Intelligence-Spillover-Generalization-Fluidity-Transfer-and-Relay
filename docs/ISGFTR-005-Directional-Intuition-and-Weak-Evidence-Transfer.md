@@ -76,6 +76,10 @@ A candidate may draw on several distinct signals:
 
 The **OTHERS** category should never be treated as a free bonus. Each residual signal needs a provenance record, a proposed interpretation, an uncertainty annotation, and a path to counter-evidence. Unexplained observations are a reason to investigate, not to believe.
 
+![Fig-004-Folding-Generalization-and-Structural-Transfer.png](../figures/Fig-004-Folding-Generalization-and-Structural-Transfer.png)
+
+*Fig-004. Hypothesized path from source observations to a reusable structural core and target-domain probes, with residuals, uncertainty, and validation retained explicitly.*
+
 ## 5. From Matching to Directional Guidance
 
 Exact matching and complete structural isomorphism are useful when available, but they can be too restrictive at the candidate-discovery stage. Directional guidance asks a weaker question: **If we invest one more experiment, which transfer hypothesis is worth testing next?**
@@ -156,6 +160,10 @@ This separation is a proposed **two-gate principle**:
 2. **Operational gate:** evidence- and contract-based threshold before consequential execution, deployment, or persistent claims.
 
 A hypothesis can remain interesting without passing the second gate. Its failure should still be recorded as informative evidence.
+
+![Fig-005-Directional-Intuition-and-Selective-Permeability.png](../figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png)
+
+*Fig-005. Weak-evidence directional guidance through selectively permeable research boundaries. Exploratory ranking, claim validation, and deployment permission are independent decisions.*
 
 ## 9. Connection to Intelligence Fluidity
 
@@ -282,14 +290,6 @@ Directional intuition is proposed as a disciplined way to **ask where intelligen
 The intended contribution is a clear research question, a modest candidate architecture, and a set of tests that others can reproduce, criticize, or extend.
 
 ---
-
-## Figure Placement
-
-**Primary planned figure:** `figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png`, recommended after Section 8.  
-**Secondary cross-reference:** `figures/Fig-004-Folding-Generalization-and-Structural-Transfer.png`, recommended after Section 4 or 5.  
-**Optional cross-reference:** `figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png`, recommended after Section 15.
-
-All figures are conceptual proposals rather than measured results. Because this file belongs in `docs/`, links to figures should use `../figures/` once the assets are available.
 
 ## Relationship to Other ISGFTR Documents
 

@@ -23,6 +23,10 @@ ISGFTR-001 introduced four operational boundaries: **generative**, **observed**,
 
 ## 2. Working Definitions and Units of Analysis
 
+![Fig-002-Four-Intelligence-Boundaries.png](../figures/Fig-002-Four-Intelligence-Boundaries.png)
+
+*Fig-002. Four context-dependent capability boundary questions. The illustration does not imply that the boundaries are necessarily nested, complete, or directly measurable on one axis.*
+
 ### 2.1 An operational capability claim
 
 A capability claim should specify at least:
@@ -184,6 +188,10 @@ with matched budgets and the same target evaluation. Here \(U\) is a declared ta
 
 ## 7. Characteristic V — Intelligence Relay
 
+![Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png](../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png)
+
+*Fig-008. Recursive evidence-bearing relay across systems and time. Durable growth is an outcome to be tested, with negative results, saturation, and rollback explicitly represented.*
+
 ### 7.1 Definition
 
 **Intelligence relay** is the traceable transmission, reuse, or transformation of tasks, representations, evidence, procedures, or capability access between intelligence units, or between successive episodes of the same system.
@@ -214,6 +222,10 @@ Track handoff fidelity, provenance completeness, downstream usefulness, coordina
 **Hypothesis R1:** Traceable temporal relay with explicit validation and retrieval will improve retained task performance on some repeated and related task families relative to ephemeral handoffs at matched resource cost.
 
 ## 8. How the Five Characteristics Interact
+
+![Fig-003-Five-Characteristics-of-Intelligence-Flow.png](../figures/Fig-003-Five-Characteristics-of-Intelligence-Flow.png)
+
+*Fig-003. Five distinguishable characteristics of intelligence flow and their possible interactions. Flow, successful transfer, and persistent growth remain separate empirical claims.*
 
 The five characteristics are not stages that every intelligent system must traverse. They form a vocabulary for possible interactions.
 
@@ -344,14 +356,6 @@ Spillover, generalization, fluidity, transfer, and relay describe five related b
 The next paper, **ISGFTR-003**, investigates the conditional relationship between structural folding, generalization, and reusable cores.
 
 ---
-
-## Suggested Figure Placement
-
-- **Fig-002 — Four Intelligence Boundaries:** after Section 2, to situate the five characteristics within the boundary framework.
-- **Fig-003 — Five Characteristics of Intelligence Flow:** after Section 2.2 or at the start of Section 8, to distinguish and connect the five characteristics.
-- **Fig-008 — Recursive Relay and Collective Intelligence Growth:** optional cross-reference in Section 7 or Section 8; distinguish potential growth from demonstrated improvement.
-
-*Figure files are planned research illustrations; this document does not imply that the figures or their depicted mechanisms have been empirically validated.*
 
 ## Related Research Areas (Orientation, Not an Exhaustive Bibliography)
 

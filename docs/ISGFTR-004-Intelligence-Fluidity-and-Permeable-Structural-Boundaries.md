@@ -86,6 +86,10 @@ The central proposal is to separate:
 
 This separation preserves the creative advantages of loose coupling without granting weak signals unjustified authority. The gates may be implemented at different levels of rigor depending on task risk.
 
+![Fig-005-Directional-Intuition-and-Selective-Permeability.png](../figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png)
+
+*Fig-005. Weak-evidence directional guidance through selectively permeable research boundaries. Exploratory ranking, claim validation, and deployment permission are independent decisions.*
+
 ## 5. Directional Intuition as a Candidate Front-End
 
 Human problem solving often begins with an imperfect sense that one situation resembles another. Such intuitions can be useful search cues, but are also vulnerable to superficial analogy and confirmation bias. ISGFTR treats this phenomenon as motivation for a **directional candidate generator**, not as evidence of a universal neural algorithm.
@@ -268,14 +272,6 @@ The boundaries used to define and test an intelligent system may be narrower tha
 A productive next step is a small, controlled experiment comparing fixed, unrestricted, and selectively gated routes under equal budgets. Evidence—not the appeal of the metaphor—should determine how far the hypothesis can be extended.
 
 ---
-
-## Figure Placement
-
-**Recommended primary figure:** `figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png` after Section 4 or 5.  
-**Optional cross-reference:** `figures/Fig-003-Five-Characteristics-of-Intelligence-Flow.png` after Section 2.  
-**Optional cross-reference:** `figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png` after Section 7.
-
-Figures are planned conceptual illustrations, not experimental results. Paths are relative to the repository root; from this document in `docs/`, Markdown links should use `../figures/`.
 
 ## Relationship to Other ISGFTR Documents
 

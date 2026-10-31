@@ -21,6 +21,10 @@ ISGFTR-001 separates the **generative**, **observed**, **reachable**, and **evol
 
 We do not assume that a language model literally executes an explicit folding algorithm. In this paper, *folding* is a proposed analytic and engineering abstraction that may be instantiated by several mechanisms. Identifying the actual mechanisms of any particular model requires separate evidence.
 
+![Fig-002-Four-Intelligence-Boundaries.png](../figures/Fig-002-Four-Intelligence-Boundaries.png)
+
+*Fig-002. Four context-dependent capability boundary questions. The illustration does not imply that the boundaries are necessarily nested, complete, or directly measurable on one axis.*
+
 ## 2. Terminology and Scope
 
 ### 2.1 Folding
@@ -70,6 +74,10 @@ A candidate structural transfer is useful only if it improves a target-specific 
 where \(Q_t\) is the target evaluation and \(B_t\) is a properly budget-matched baseline. Positive \(\Delta_{\mathrm{transfer}}\) on one benchmark does not establish a generally reusable core. Its stability across target shifts and trials must be examined.
 
 A separate compression statistic, such as description length or representation dimensionality, can be recorded, but should not be substituted for transfer utility. A smaller \(z\) can be worse, better, or equivalent depending on the task and the information discarded.
+
+![Fig-004-Folding-Generalization-and-Structural-Transfer.png](../figures/Fig-004-Folding-Generalization-and-Structural-Transfer.png)
+
+*Fig-004. Hypothesized path from source observations to a reusable structural core and target-domain probes, with residuals, uncertainty, and validation retained explicitly.*
 
 ## 4. Why Folding Could Support Generalization
 
@@ -152,6 +160,10 @@ An illustrative opportunity score is
 \]
 
 The function \(f\) must be learned, calibrated, or specified for a concrete application. Its inputs are not necessarily commensurate; the expression is a design placeholder rather than a validated formula. In particular, an OTHERS term should be accompanied by a source, reason for inclusion, and falsification route.
+
+![Fig-005-Directional-Intuition-and-Selective-Permeability.png](../figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png)
+
+*Fig-005. Weak-evidence directional guidance through selectively permeable research boundaries. Exploratory ranking, claim validation, and deployment permission are independent decisions.*
 
 ## 9. Failure Modes and Counterarguments
 
@@ -263,14 +275,6 @@ Folding can sometimes make knowledge more transferable by emphasizing shared rel
 The next document, **ISGFTR-004**, examines intelligence fluidity and selectively permeable structural boundaries as possible mechanisms for discovering and routing these candidate transfers.
 
 ---
-
-## Suggested Figure Placement
-
-- **Fig-004 — Folding Generalization and Structural Transfer:** after Section 3 or Section 4, showing source experiences, a shared core, residuals, context-sensitive unfolding, and target validation. Label candidate pathways as hypotheses rather than proven transfers.
-- **Fig-002 — Four Intelligence Boundaries:** optional cross-reference after Section 1, situating folding relative to observed and reachable capability frontiers.
-- **Fig-005 — Directional Intuition and Selective Permeability:** optional forward reference after Section 8, distinguishing exploratory weak-evidence mapping from validated relay.
-
-*Figure files are planned conceptual illustrations. Their presence does not imply empirical validation.*
 
 ## Related Research Areas (Orientation)
 

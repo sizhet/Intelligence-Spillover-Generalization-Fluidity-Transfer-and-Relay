@@ -62,7 +62,10 @@ These boundaries are not necessarily nested in every operational definition. For
 
 H1 is a caution against invalid inference, not a claim that every model will generalize broadly. A useful empirical test must specify a model family, tasks, resources, and a measurable capability boundary.
 
-**Suggested illustration:** `../figures/Fig-002-Four-Intelligence-Boundaries.png` (conceptual, not to scale).
+![Fig-002-Four-Intelligence-Boundaries.png](../figures/Fig-002-Four-Intelligence-Boundaries.png)
+
+*Fig-002. Four context-dependent capability boundary questions. The illustration does not imply that the boundaries are necessarily nested, complete, or directly measurable on one axis.*
+
 
 ## 4. Five Candidate Characteristics
 
@@ -90,7 +93,9 @@ Intelligence-relevant artifacts can pass between agents, tools, components, gene
 
 **Working proposition (H2):** Some capability extensions can be explained by structural reuse, recomposition, perspective transformation, and residual-driven exploration. Their relative contributions must be tested rather than assumed.
 
-**Suggested illustration:** `../figures/Fig-003-Five-Characteristics-of-Intelligence-Flow.png`.
+![Fig-003-Five-Characteristics-of-Intelligence-Flow.png](../figures/Fig-003-Five-Characteristics-of-Intelligence-Flow.png)
+
+*Fig-003. Five distinguishable characteristics of intelligence flow and their possible interactions. Flow, successful transfer, and persistent growth remain separate empirical claims.*
 
 ## 5. Folding, Shared Structure, and Transfer
 
@@ -104,7 +109,9 @@ Each arrow is conditional. The quality of the reusable core, the match between s
 
 This motivates a research distinction between **mere compression** and **transfer-preserving abstraction**. Studies should compare both successful and failed transfers under matched resources, rather than infer generality from representational compactness alone.
 
-**Suggested illustration:** `../figures/Fig-004-Folding-Generalization-and-Structural-Transfer.png`.
+![Fig-004-Folding-Generalization-and-Structural-Transfer.png](../figures/Fig-004-Folding-Generalization-and-Structural-Transfer.png)
+
+*Fig-004. Hypothesized path from source observations to a reusable structural core and target-domain probes, with residuals, uncertainty, and validation retained explicitly.*
 
 ## 6. Open Boundaries and Directional Exploration
 
@@ -119,7 +126,10 @@ A possible two-stage pattern is:
 
 This pattern should not be mistaken for a neuroscientific theory. Biological systems offer motivating examples of distributed association and gating, but the proposed computational architecture requires independent validation.
 
-**Suggested illustration:** `../figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png`.
+![Fig-005-Directional-Intuition-and-Selective-Permeability.png](../figures/Fig-005-Directional-Intuition-and-Selective-Permeability.png)
+
+*Fig-005. Weak-evidence directional guidance through selectively permeable research boundaries. Exploratory ranking, claim validation, and deployment permission are independent decisions.*
+
 
 ## 7. Model-Centric and System-Centric Paths
 
@@ -137,7 +147,9 @@ A particularly useful research hypothesis is **learning–execution unit decoupl
 
 Experiments should distinguish genuine retained system improvement from temporary gains caused solely by extra compute, additional tools, or access to previously unavailable information.
 
-**Suggested illustration:** `../figures/Fig-006-System-Centric-Multi-Level-Learning.png`.
+![Fig-006-System-Centric-Multi-Level-Learning.png](../figures/Fig-006-System-Centric-Multi-Level-Learning.png)
+
+*Fig-006. Candidate learning loci across execution units, interactions, structures, relay histories, and collectives. The learning and execution mechanisms may be decoupled.*
 
 ## 8. From Passive Observation to Capability Prospecting
 
@@ -161,7 +173,9 @@ Failed probes are valuable evidence if retained with their conditions and counte
 
 **Working proposition (H4):** A calibrated, evidence-aware prospecting policy may discover useful transfers more efficiently than random probing or a simple structural-similarity baseline under matched budgets.
 
-**Suggested illustration:** `../figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png`.
+![Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png](../figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png)
+
+*Fig-007. Capability prospecting across uncertain frontiers: opportunity generation, prioritization, probing, evidence-based claim revision, and feedback into future research.*
 
 ## 9. Open-System Growth Is Not Guaranteed Growth
 
@@ -179,7 +193,9 @@ In particular, *mobility*, *utility*, and *growth* should be measured separately
 - **Utility:** Does that crossing improve target-task outcomes under relevant costs and risks?
 - **Growth:** Is a new capability retained and reusable beyond the immediate episode?
 
-**Suggested illustration:** `../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png`.
+![Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png](../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png)
+
+*Fig-008. Recursive evidence-bearing relay across systems and time. Durable growth is an outcome to be tested, with negative results, saturation, and rollback explicitly represented.*
 
 ## 10. Implications for AGI: A Research Question, Not a Forecast
 
@@ -239,7 +255,9 @@ A useful relay contribution should specify:
 
 Where possible, artifacts should be portable, versioned, and comparable across implementations. Disagreement and failed experiments are legitimate contributions to collective learning.
 
-**Suggested overview illustration:** `../figures/Fig-001-ISGFTR-Grand-Architecture.png`.
+![Fig-001-ISGFTR-Grand-Architecture.png](../figures/Fig-001-ISGFTR-Grand-Architecture.png)
+
+*Fig-001. Conceptual ISGFTR architecture connecting capability prospecting, controlled experiments, evidence adjudication, structural relay, and research governance. Feedback arrows denote research opportunities, not guaranteed intelligence growth.*
 
 ## 15. Conclusion
 

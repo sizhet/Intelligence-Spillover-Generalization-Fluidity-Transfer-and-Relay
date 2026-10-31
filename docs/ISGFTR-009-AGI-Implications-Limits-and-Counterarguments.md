@@ -65,6 +65,10 @@ These are not automatically nested circles. The observed boundary depends on tes
 
 **Evaluation implication:** every capability claim should declare the boundary, environment, resources, assistance, and time horizon to which it applies. Statements such as “the model can solve X” are underspecified when X requires extensive external orchestration.
 
+![Fig-002-Four-Intelligence-Boundaries.png](../figures/Fig-002-Four-Intelligence-Boundaries.png)
+
+*Fig-002. Four context-dependent capability boundary questions. The illustration does not imply that the boundaries are necessarily nested, complete, or directly measurable on one axis.*
+
 ## 4. Model-Centric, System-Centric, and Hybrid AGI Hypotheses
 
 ### 4.1 Model-centric hypothesis
@@ -93,6 +97,10 @@ However, three cautions are essential:
 
 The decisive comparison is longitudinal and budget-matched: does a frozen-unit system improve on *newly sampled*, meaningfully shifted tasks after the learning phase, when the accumulated structural changes are retained and the evaluation budget is controlled?
 
+![Fig-006-System-Centric-Multi-Level-Learning.png](../figures/Fig-006-System-Centric-Multi-Level-Learning.png)
+
+*Fig-006. Candidate learning loci across execution units, interactions, structures, relay histories, and collectives. The learning and execution mechanisms may be decoupled.*
+
 ## 6. Folding–Generalization Duality: A Conditional Bridge
 
 Structural folding attempts to extract a reusable core from multiple cases; unfolding attempts to apply that core in a new context with appropriate residual conditions. This offers a candidate mechanism for transfer: preserve invariants, adapt context-dependent components, and test the reconstructed solution.
@@ -109,6 +117,10 @@ A weak-evidence proposal can be wrong for reasons invisible at the abstraction l
 
 A prospect score is a ranking signal unless calibrated against outcomes. It should not be described as a success probability without an empirical calibration study. Counterevidence must be stored and relayed, not discarded as an inconvenience.
 
+![Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png](../figures/Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png)
+
+*Fig-007. Capability prospecting across uncertain frontiers: opportunity generation, prioritization, probing, evidence-based claim revision, and feedback into future research.*
+
 ## 8. Recursive Relay Is Not Automatically Recursive Self-Improvement
 
 A system can repeatedly execute tasks, log results, refine routing, and accumulate evidence. This is a meaningful relay process. Yet it is not necessarily recursive self-improvement (RSI) in the stronger sense of increasing its own capacity to improve.
@@ -122,6 +134,10 @@ Three distinct trajectories should be measured:
 | Recursive improvement | Improved ability to discover and validate subsequent improvements | Unbounded or accelerating growth |
 
 The strongest RSI claim requires evidence across multiple independent cycles, with out-of-sample gains, cost accounting, ablation studies, and explicit checks against evaluator exploitation. Saturation, regression, and maintenance overhead are expected possibilities.
+
+![Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png](../figures/Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png)
+
+*Fig-008. Recursive evidence-bearing relay across systems and time. Durable growth is an outcome to be tested, with negative results, saturation, and rollback explicitly represented.*
 
 ## 9. Major Counterarguments
 
@@ -308,13 +324,6 @@ ISGFTR offers a research perspective on how intelligence can move, be reused, be
 The responsible scientific path is to separate **possible mechanisms**, **observed gains**, **durable learning**, and **general intelligence claims**. The next milestone is not a grand declaration but a reproducible experiment that survives strong baselines, negative controls, domain shifts, and independent scrutiny.
 
 ---
-
-## Suggested Figure Placement
-
-- **Fig-002-Four-Intelligence-Boundaries.png** — after Section 3, to clarify boundary distinctions without implying simple geometric nesting.
-- **Fig-006-System-Centric-Multi-Level-Learning.png** — after Section 5, to illustrate learning–execution decoupling.
-- **Fig-007-Spillover-Prospecting-and-Capability-Frontiers.png** — after Section 7 or 13, to connect opportunity discovery with validation gates.
-- **Fig-008-Recursive-Relay-and-Collective-Intelligence-Growth.png** — after Section 8, with explicit saturation and rollback paths.
 
 ## Document Status
 
