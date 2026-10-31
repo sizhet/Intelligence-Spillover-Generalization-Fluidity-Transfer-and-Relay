@@ -365,6 +365,6 @@ The proposed questions intersect transfer learning, active learning, Bayesian ex
 
 - **Evidence status:** Conceptual proposal; no experiments are reported in this document.
 - **Reproducibility:** Future results should be linked to versioned protocols, artifacts, and evaluation data where legally and ethically shareable.
-- **License:** Intended repository license Apache-2.0; see `LICENSE` for the authoritative terms.
+- **License:** Intended repository license Apache-2.0; see `LICENSE.txt` for the authoritative terms.
 - **Citation metadata:** See `CITATION.cff` when published.
 - **DOI:** Not assigned in this draft; add only after an archival release.

@@ -3,7 +3,7 @@
 **Project:** Intelligence Spillover, Generalization, Fluidity, Transfer, and Relay (ISGFTR)  
 **Release:** `v1.0.0` — initial theory-first research release  
 **Status:** Release notes prepared for publication; not a statement that the GitHub Release or DOI already exists  
-**License:** Apache-2.0, subject to the repository's `LICENSE` file
+**License:** Apache-2.0, subject to the repository's `LICENSE.txt` file
 
 ## Overview
 
@@ -123,7 +123,7 @@ These activities are **future work**, not part of the validated deliverables of 
 
 Please use the repository's [`CITATION.cff`](../CITATION.cff) for citation metadata and cite the **version consulted**. A version-specific DOI may be added after a successful Zenodo archive; **no DOI is claimed in these release notes**.
 
-The intended license is **Apache License 2.0**; confirm that the repository contains the corresponding `LICENSE` file before publication.
+The intended license is **Apache License 2.0**; confirm that the repository contains the corresponding `LICENSE.txt` file before publication.
 
 ## Open Research Invitation
 
@@ -138,7 +138,7 @@ ISGFTR is offered as a **collective-learning-friendly** research framework. Crit
 - [ ] All 20 research documents are present under the planned `docs/`, `specs/`, `cases/`, and `extensions/` paths.
 - [ ] Root navigation files and internal links have been checked.
 - [ ] All eight figures are separately exported, correctly named, and legible.
-- [ ] `LICENSE` contains the intended Apache-2.0 text.
+- [ ] `LICENSE.txt` contains the intended Apache-2.0 text.
 - [ ] `CITATION.cff` and `.zenodo.json` agree on title, authors, license, and version.
 - [ ] The Git tag and GitHub Release are both named `v1.0.0`.
 - [ ] Any release date and DOI are confirmed before being stated as facts.

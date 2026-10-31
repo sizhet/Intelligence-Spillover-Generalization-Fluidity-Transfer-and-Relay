@@ -298,6 +298,6 @@ All figures are conceptual until accompanied by experimental evidence.
 - **CASE-002:** minimal system-centric collective learning.
 - **CASE-003:** weak-evidence capability prospecting and relay.
 
-**License:** See the repository's planned `LICENSE` file (Apache-2.0).  
+**License:** See the repository's planned `LICENSE.txt` file (Apache-2.0).  
 **Citation:** See `CITATION.cff` after publication metadata is finalized.  
 **DOI:** To be assigned following versioned release and archival deposit.
