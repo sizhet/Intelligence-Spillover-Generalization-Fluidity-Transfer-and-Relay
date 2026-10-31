@@ -4,7 +4,7 @@
 **Document type:** Integrative research architecture, proposed interfaces, and validation roadmap  
 **Version:** v1.0.0 (theory-first)  
 **Status:** Open research proposal; not a validated implementation or claim of AGI  
-**Date:** 2026-10-30
+**Date:** 2026-10-31
 
 ## Abstract
 

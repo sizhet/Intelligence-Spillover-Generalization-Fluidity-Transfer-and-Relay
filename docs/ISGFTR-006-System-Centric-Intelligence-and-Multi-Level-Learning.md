@@ -324,6 +324,6 @@ A small frozen-unit experiment is a practical next step. Positive results would 
 - **SPEC-004:** proposed structural relay and collective-learning contract.
 - **CASE-002:** proposed minimal system-centric collective-learning experiment.
 
-**License:** See the repository's planned `LICENSE.txt` file (Apache-2.0).  
+**License:** See the repository's `LICENSE.txt` file (Apache-2.0).  
 **Citation:** See `CITATION.cff` after publication metadata is finalized.  
 **DOI:** To be assigned following versioned release and archival deposit.

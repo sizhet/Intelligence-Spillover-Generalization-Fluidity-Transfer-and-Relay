@@ -288,6 +288,6 @@ A productive next step is a small, controlled experiment comparing fixed, unrest
 
 The ideas in this document intersect with established work in cognitive control, attention and gating, transfer learning, analogical reasoning, modular systems, hierarchical reinforcement learning, multi-agent coordination, and continual learning. These neighboring fields should be consulted and cited in any later scholarly manuscript claiming empirical or historical novelty. The constructs introduced here are offered as a synthesis and research proposal; no claim of exclusive priority over related mechanisms is intended.
 
-**License:** See the repository's `LICENSE.txt` file (planned Apache-2.0).  
+**License:** See the repository's `LICENSE.txt` file (Apache-2.0).  
 **Citation:** See repository `CITATION.cff` once finalized.  
 **DOI:** To be assigned after a versioned release and archival deposit.

@@ -4,7 +4,7 @@
 **Document type:** Mechanism hypothesis, conceptual model, and testable research agenda  
 **Version:** 1.0.0 (theory-first)  
 **Status:** Open research hypothesis; no empirical validation is claimed  
-**Date:** 2026-10-30  
+**Date:** 2026-10-31  
 **Companions:** [ISGFTR-001 — From Static Intelligence Boundaries to Open Capability Frontiers](ISGFTR-001-From-Static-Intelligence-Boundaries-to-Open-Capability-Frontiers.md); [ISGFTR-002 — Five Characteristics of Intelligence Spillover and Relay](ISGFTR-002-Five-Characteristics-of-Intelligence-Spillover-and-Relay.md)
 
 ## Abstract

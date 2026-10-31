@@ -4,7 +4,7 @@
 **Document type:** Conceptual taxonomy, mechanism hypotheses, and testable research agenda  
 **Version:** 1.0.0 (theory-first)  
 **Status:** Open hypothesis; definitions and mechanisms proposed for investigation, not empirically established laws  
-**Date:** 2026-10-30  
+**Date:** 2026-10-31  
 **Companion:** [ISGFTR-001 — From Static Intelligence Boundaries to Open Capability Frontiers](ISGFTR-001-From-Static-Intelligence-Boundaries-to-Open-Capability-Frontiers.md)
 
 ## Abstract

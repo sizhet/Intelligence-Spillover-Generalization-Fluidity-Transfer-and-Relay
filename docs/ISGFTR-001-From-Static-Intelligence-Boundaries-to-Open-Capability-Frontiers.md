@@ -4,7 +4,7 @@
 **Document type:** Directional research hypothesis and conceptual framework  
 **Version:** 1.0.0 (theory-first)  
 **Status:** Open hypothesis; not an empirical demonstration  
-**Date:** 2026-10-30
+**Date:** 2026-10-31
 
 ## Abstract
 

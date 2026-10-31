@@ -303,6 +303,6 @@ The intended contribution is a clear research question, a modest candidate archi
 - **SPEC-002 / SPEC-003:** proposed evidence records and validation lifecycle.
 - **CASE-003:** proposed controlled weak-evidence prospecting experiment.
 
-**License:** See the repository's planned `LICENSE.txt` file (Apache-2.0).  
+**License:** See the repository's `LICENSE.txt` file (Apache-2.0).  
 **Citation:** See `CITATION.cff` after publication metadata is finalized.  
 **DOI:** To be assigned after a versioned release and archival deposit.

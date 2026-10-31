@@ -4,7 +4,7 @@
 **Document type:** Directional research hypothesis, conceptual architecture, and falsifiable validation agenda  
 **Version:** v1.0.0 (theory-first)  
 **Status:** Open research proposal; no empirical success or novel algorithmic superiority is asserted  
-**Date:** 2026-10-30
+**Date:** 2026-10-31
 
 ## Abstract
 
