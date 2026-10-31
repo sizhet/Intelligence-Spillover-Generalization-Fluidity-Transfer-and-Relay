@@ -15,6 +15,12 @@ ISGFTR explores five related but distinguishable characteristics of intelligence
 
 ---
 
+![Fig-001-ISGFTR-Grand-Architecture.png](figures/Fig-001-ISGFTR-Grand-Architecture.png)
+
+*Fig-001. Conceptual ISGFTR architecture connecting capability prospecting, controlled experiments, evidence adjudication, structural relay, and research governance. Feedback arrows denote research opportunities, not guaranteed intelligence growth.*
+
+---
+
 ## 1. The five characteristics
 
 | Characteristic | Working meaning | What it does **not** establish |
@@ -225,6 +231,12 @@ The intended **v1.0.0 release is theory-first**: the papers, proposed contracts,
 
 The intended repository license is **Apache License 2.0**. See [`LICENSE.txt`](LICENSE.txt) for the controlling license text once published. Authors, release dates, archive identifiers, and citation details should be verified against `CITATION.cff` and the eventual archived release before formal citation.
 
+---
+
+## 📚 DBM-SI Series Navigation
+
+See:\
+[./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md](./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md)
 
 ---
 
